@@ -1,0 +1,1930 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Гайд по рабочему турецкому для русскоязычных: вежливые формулы, собеседование, звонок, письмо, документы. С анимациями, озвучкой и упражнениями.">
+<meta property="og:title" content="Рабочий турецкий: собеседование, звонки, письма">
+<meta property="og:description" content="Гайд по рабочему турецкому для русскоязычных: вежливые формулы, собеседование, звонок, письмо, документы. С анимациями, озвучкой и упражнениями.">
+<meta name="theme-color" content="#FFFFFF">
+<link rel="icon" href="media/favicon.svg">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}</style>
+<title>Рабочий турецкий: собеседование, звонки, письма</title>
+<link rel="preload" href="assets/fonts/manrope-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/manrope-latin-ext.woff2" as="font" type="font/woff2" crossorigin>
+<style>@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url(assets/fonts/manrope-cyrillic.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url(assets/fonts/manrope-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url(assets/fonts/manrope-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}</style>
+<script defer src="assets/gsap-bundle.min.js"></script>
+
+<style>
+:root{
+  color-scheme: light;
+  --bg:#FFFFFF; --card:#F4F4F4; --card2:#EAEAEA; --ink:#1E1E1E; --ink2:#2C2C2C;
+  --txt:#4A4A4A; --mute:#8F8F8F; --line:#E4E4E4;
+  --amber:#FFCC00; --lime:#27EB62; --lime-d:#14B848;
+  --f:"Manrope",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  --gut:16px; --r:28px; --rs:18px;
+}
+@media (min-width:760px){:root{--gut:32px; --r:40px; --rs:22px}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;scroll-padding-top:110px}
+html,body{overflow-x:clip}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.55 var(--f);overflow-x:clip;-webkit-font-smoothing:antialiased}
+img,video{max-width:100%;display:block}
+a{color:inherit}
+button{font:inherit;color:inherit;cursor:pointer;border:0;background:none;padding:0;-webkit-tap-highlight-color:transparent}
+.wrap{max-width:1160px;margin:0 auto;padding:0 var(--gut)}
+.ic{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+
+/* ---------- header ---------- */
+.top{position:fixed;inset:0 0 auto 0;z-index:50;background:rgba(255,255,255,.97);border-bottom:1px solid var(--line)}
+@media (min-width:900px){.top{backdrop-filter:saturate(1.4) blur(10px);-webkit-backdrop-filter:saturate(1.4) blur(10px)}}
+.top-in{display:flex;align-items:center;gap:12px;height:58px}
+.logo{display:flex;align-items:center;gap:8px;text-decoration:none;font-weight:600;font-size:18px;letter-spacing:-.02em;flex:none}
+.mk{width:24px;height:24px;fill:var(--ink)}
+.logo span{display:none}
+@media (min-width:600px){.logo span{display:inline}}
+.tabs{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;flex:1;padding:4px 0;mask-image:linear-gradient(90deg,#000 88%,transparent)}
+.tabs::-webkit-scrollbar{display:none}
+.tabs a{flex:none;text-decoration:none;font-size:14px;font-weight:500;padding:8px 14px;border-radius:999px;background:var(--card);transition:background .25s,color .25s}
+.tabs a.on{background:var(--amber)}
+.prog{height:5px;background:transparent;position:relative}
+.prog i{position:absolute;left:0;top:0;bottom:0;width:0;background:var(--lime)}
+.prog i::after{content:"";position:absolute;left:100%;top:0;bottom:0;width:42px;background:repeating-linear-gradient(90deg,var(--ink) 0 2px,transparent 2px 6px);opacity:.55}
+main{padding-top:63px}
+
+/* ---------- type ---------- */
+.kick{display:inline-flex;align-items:center;gap:8px;background:var(--amber);border-radius:999px;padding:9px 18px;font-weight:500;font-size:15px;line-height:1.2}
+.kick.g{background:var(--lime)} .kick.d{background:var(--ink);color:#fff} .kick.l{background:var(--card)}
+.big{font-weight:300;font-size:clamp(38px,10vw,88px);line-height:1;letter-spacing:-.04em;margin:20px 0 18px}
+.big .wd{display:inline-block}
+.lead{font-size:17px;line-height:1.55;color:var(--txt);max-width:600px;margin:0 0 8px}
+.lead b{color:var(--ink);font-weight:600}
+.sec{padding:72px 0 24px}
+@media (min-width:760px){.sec{padding:120px 0 40px}}
+.tr{font-weight:600}
+.ru{color:var(--mute);font-size:14px}
+.dark .ru,.dark .mutec{color:#A9A9A9}
+
+/* ---------- cards ---------- */
+.card{background:var(--card);border-radius:var(--r);padding:24px;position:relative}
+@media (min-width:760px){.card{padding:36px}}
+.card.dark{background:var(--ink);color:#fff}
+.card.amber{background:var(--amber)}
+.card.lime{background:var(--lime)}
+.card.white{background:#fff;border:1px solid var(--line)}
+.chead{display:flex;justify-content:space-between;align-items:baseline;gap:14px;font-size:21px;font-weight:500;letter-spacing:-.01em;margin-bottom:14px}
+.chead .n{font-weight:400}
+.ctext{font-size:16px;color:var(--txt);margin:0 0 18px;max-width:560px}
+.dark .ctext{color:#C9C9C9}
+.amber .ctext,.lime .ctext{color:#2a2a2a}
+.grid{display:grid;gap:12px}
+@media (min-width:760px){.grid.g2{grid-template-columns:1fr 1fr;gap:16px}.grid.g3{grid-template-columns:repeat(3,1fr);gap:16px}}
+.mt{margin-top:12px} .mt2{margin-top:28px}
+
+/* sun (dotted) */
+.sun{width:44px;height:44px;color:var(--amber)}
+
+/* pills / seg */
+.seg{display:inline-flex;background:#fff;border-radius:999px;padding:5px;gap:4px;border:1px solid var(--line)}
+.dark .seg{background:#2E2E2E;border-color:#2E2E2E}
+.seg button{padding:9px 16px;border-radius:999px;font-size:14px;font-weight:500;color:var(--mute);transition:background .25s,color .25s}
+.seg button.on{background:var(--lime);color:var(--ink)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{padding:9px 15px;border-radius:999px;background:#fff;border:1px solid var(--line);font-size:15px;font-weight:500;transition:background .2s,border-color .2s}
+.dark .chip{background:#2E2E2E;border-color:#2E2E2E;color:#fff}
+.chip.on{background:var(--amber);border-color:var(--amber);color:var(--ink)}
+
+/* speaker */
+.say{width:38px;height:38px;border-radius:50%;background:#fff;border:1px solid var(--line);display:inline-grid;place-items:center;flex:none;transition:background .2s,scale .2s;vertical-align:middle}
+.say .ic{width:17px;height:17px}
+.dark .say{background:#2E2E2E;border-color:#3A3A3A;color:#fff}
+.amber .say,.lime .say{background:rgba(255,255,255,.75);border-color:transparent}
+.say.on{background:var(--amber);color:var(--ink);scale:1.08}
+.no-tts .say{display:none}
+
+/* golfee bar */
+.gbar{display:flex;height:30px;gap:3px;border-radius:6px}
+.gbar .gf{background:#fff;border-radius:5px;width:40%;transition:width .7s cubic-bezier(.3,.9,.3,1)}
+.gbar .gh{flex:1;background:repeating-linear-gradient(90deg,rgba(30,30,30,.55) 0 2px,transparent 2px 7px);border-radius:2px;min-width:0}
+.gbar .ge{width:13%;background:var(--ink);border-radius:5px}
+.dark .gbar .gf{background:var(--lime)}
+.dark .gbar .gh{background:repeating-linear-gradient(90deg,rgba(255,255,255,.45) 0 2px,transparent 2px 7px)}
+.dark .gbar .ge{background:#8a8a8a}
+
+/* stat rows */
+.srow{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:7px 0 7px 14px;position:relative;font-size:15px}
+.srow::before{content:"";position:absolute;left:0;top:8px;bottom:8px;width:3px;border-radius:3px;background:currentColor;opacity:.35}
+.srow.hi::before{opacity:1;background:var(--ink)}
+.dark .srow.hi::before{background:var(--amber)}
+
+/* reveal fallback: always visible */
+.rv{will-change:transform}
+
+/* ---------- hero ---------- */
+.hero{padding:16px 0 0}
+.poster{background:var(--amber);border-radius:var(--r);padding:20px;overflow:hidden;position:relative}
+@media (min-width:760px){.poster{padding:40px}}
+.p-top{display:flex;justify-content:space-between;align-items:center}
+.p-logo{display:flex;align-items:center;gap:8px;font-weight:600;font-size:17px}
+.p-logo .mk{width:22px;height:22px}
+.poster h1{margin:34px 0 0;font-size:clamp(44px,12.6vw,128px);line-height:.92;letter-spacing:-.045em;text-transform:uppercase}
+.poster h1 b{display:block;font-weight:800}
+.poster h1 span{display:block;font-weight:300}
+.p-mid{display:grid;gap:16px;align-items:end}
+@media (min-width:760px){.p-mid{grid-template-columns:1.4fr 1fr}}
+.p-tag{font-size:15px;line-height:1.45;max-width:300px;margin:16px 0 0}
+.tiles{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:22px}
+@media (min-width:700px){.tiles{grid-template-columns:repeat(4,1fr);gap:12px;margin-top:34px}}
+.tile{margin:0;border-radius:var(--rs);overflow:hidden;position:relative;aspect-ratio:4/3.2;background:#e8b800}
+@media (min-width:700px){.tile{aspect-ratio:3/3.6}}
+.tile img{width:100%;height:100%;object-fit:cover}
+.tile figcaption{position:absolute;left:8px;bottom:8px;background:#fff;border-radius:999px;padding:5px 11px;font-size:13px;font-weight:600}
+.meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.meta span{display:inline-flex;align-items:center;gap:6px;background:var(--card);border-radius:999px;padding:8px 14px;font-size:14px;font-weight:500}
+/* CSS intro (above the fold) */
+@keyframes popIn{from{transform:translateY(26px) scale(.94)}to{transform:none}}
+@keyframes spin{to{rotate:360deg}}
+.poster h1 b,.poster h1 span{animation:popIn .9s cubic-bezier(.2,1.4,.4,1) both}
+.poster h1 span{animation-delay:.08s}
+.tile{animation:popIn .8s cubic-bezier(.2,1.3,.4,1) both}
+.tile:nth-child(2){animation-delay:.07s}.tile:nth-child(3){animation-delay:.14s}.tile:nth-child(4){animation-delay:.21s}
+.p-top .sun{animation:spin 14s linear infinite}
+
+/* staggered statement */
+.stag{display:flex;flex-direction:column;overflow:hidden;padding-bottom:.08em;font-weight:300;font-size:clamp(40px,11.2vw,118px);line-height:1.02;letter-spacing:-.045em;margin:64px 0 0}
+.stag span{display:block;white-space:nowrap}
+.stag .l2{padding-left:20%}.stag .l3{padding-left:5%}.stag .l4{padding-left:16%}
+@media (min-width:760px){.stag .l2{padding-left:24%}.stag .l4{padding-left:32%}}
+.stag-sub{font-size:16px;color:var(--txt);max-width:330px;margin:20px 0 0 auto}
+@media (min-width:760px){.stag-sub{font-size:18px;margin-right:8%}}
+
+/* story cards */
+.story{display:grid;grid-auto-flow:column;grid-auto-columns:86%;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px var(--gut) 10px;margin:40px calc(var(--gut) * -1) 0;scrollbar-width:none}
+.story::-webkit-scrollbar{display:none}
+@media (min-width:900px){.story{grid-auto-flow:row;grid-template-columns:repeat(3,1fr);overflow:visible;padding:0;margin:56px 0 0}}
+.st{scroll-snap-align:center;min-height:330px;display:flex;flex-direction:column}
+.st p{margin:0 0 10px;font-size:17px;line-height:1.5}
+.st .dlg{font-size:17px;line-height:1.55}
+.st .dlg i{font-style:normal;font-weight:600}
+.st .pg{margin-top:auto;padding-top:14px;font-size:13px;opacity:.6;display:flex;justify-content:space-between}
+.author{display:flex;gap:14px;align-items:flex-start;margin-top:16px}
+.author .av{width:46px;height:46px;border-radius:50%;background:var(--ink);display:grid;place-items:center;flex:none}
+.author .av .mk{fill:var(--amber);width:22px;height:22px}
+.author p{margin:0;font-size:15px;color:var(--txt);max-width:620px}
+
+/* ---------- §1 register ---------- */
+.reg-head{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:10px}
+.rg-row{display:grid;grid-template-columns:1fr auto;gap:2px 12px;align-items:center;padding:14px 0;border-top:1px solid var(--line)}
+.rg-lab{grid-column:1/-1;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--mute);font-weight:600}
+.rg-tx{overflow:hidden}
+.rg-tr{display:block;font-size:22px;font-weight:600;letter-spacing:-.01em;line-height:1.25}
+.rg-ru{display:block;font-size:14px;color:var(--mute)}
+.lex{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+@media (min-width:600px){.lex{grid-template-columns:repeat(5,1fr);gap:12px}}
+.lx{background:var(--card);border-radius:var(--rs);padding:14px;text-align:left;display:flex;flex-direction:column;gap:2px;min-height:112px;transition:background .2s,scale .2s}
+.lx:active{scale:.97}
+.lx .n{font-size:12px;color:var(--mute)}
+.lx b{font-size:19px;font-weight:600;margin-top:auto}
+.lx span{font-size:13px;color:var(--mute)}
+.lx.on{background:var(--amber)}
+.lx.on span,.lx.on .n{color:#3a3a3a}
+
+/* ---------- §2 meter ---------- */
+.meter .q{font-size:20px;font-weight:500;line-height:1.3;max-width:520px}
+.meter .pct{display:flex;align-items:baseline;gap:8px;margin:18px 0 12px}
+.meter .pct b{font-size:52px;font-weight:400;letter-spacing:-.03em;line-height:1}
+.meter .pct span{font-size:15px}
+.mout{background:#fff;border-radius:var(--rs);padding:18px;margin:18px 0 12px;display:flex;gap:12px;align-items:center}
+.mout .tx{flex:1;min-width:0}
+.mout .tr{font-size:22px;line-height:1.25;display:block}
+.mout .ru{display:block}
+.mout .note{display:block;font-size:14px;color:#3a3a3a;margin-top:6px}
+.mlist button{display:flex;width:100%;text-align:left}
+.mlist .srow span:last-child{font-variant-numeric:tabular-nums}
+.mlist .srow.hi{font-weight:600}
+.punch{font-size:20px;font-weight:400;line-height:1.4;max-width:620px;margin:26px 0 0;letter-spacing:-.01em}
+
+/* ---------- §3 harmony ---------- */
+.hm-word{font-size:clamp(44px,13vw,84px);font-weight:300;letter-spacing:-.03em;line-height:1.1;margin:6px 0 18px;min-height:1.1em}
+.hm-word i{font-style:normal;display:inline-block;transition:color .3s,scale .3s}
+.hm-word i.lv{color:var(--amber);font-weight:600;scale:1.12}
+.hm-vars{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+@media (min-width:600px){.hm-vars{grid-template-columns:repeat(4,1fr)}}
+.hv{background:#2E2E2E;border-radius:var(--rs);padding:14px;display:flex;flex-direction:column;gap:2px;transition:background .3s,color .3s,scale .3s}
+.hv b{font-size:21px;font-weight:600}
+.hv small{font-size:13px;color:#A9A9A9}
+.hv.pick{background:var(--amber);color:var(--ink);scale:1.04}
+.hv.pick small{color:#3a3a3a}
+.hm-out{display:flex;align-items:center;gap:12px;margin:18px 0 16px;padding:16px;border-radius:var(--rs);background:#2A2A2A}
+.hm-out .tx{flex:1}
+.hm-out .tr{font-size:24px;display:block;line-height:1.2}
+.rules4{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:12px}
+@media (min-width:600px){.rules4{grid-template-columns:repeat(4,1fr)}}
+.r4{background:var(--card);border-radius:var(--rs);padding:14px}
+.r4 b{display:block;font-size:20px}
+.r4 span{font-size:14px;color:var(--mute)}
+
+/* builder */
+.b-row{display:flex;flex-wrap:wrap;align-items:flex-end;gap:6px;min-height:92px;margin:22px 0 6px}
+.blk{display:inline-flex;flex-direction:column;align-items:center;gap:6px}
+.blk b{display:block;padding:12px 14px;border-radius:14px;font-size:24px;font-weight:600;line-height:1}
+.blk small{font-size:11px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--mute)}
+.blk.gap{width:10px}
+.k-root b{background:var(--ink);color:#fff}
+.k-abil b{background:var(--lime)}
+.k-ir b{background:var(--amber)}
+.k-q b{background:#fff;border:1px solid var(--line)}
+.k-per b{background:#fff;border:2px solid var(--ink)}
+.k-buf b{background:#fff;border:2px dashed var(--amber);padding:12px 8px}
+.b-out{display:flex;align-items:center;gap:12px;margin-top:14px}
+.b-out .tr{font-size:clamp(24px,6.6vw,34px);letter-spacing:-.02em;line-height:1.15}
+.b-ru{margin:4px 0 18px;color:var(--txt)}
+.legend{display:flex;flex-wrap:wrap;gap:14px;margin-top:18px;font-size:13px;color:var(--txt)}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:4px;margin-right:6px;vertical-align:-1px}
+
+/* want */
+.want .wr{display:flex;align-items:center;gap:12px;padding:12px 0;border-top:1px solid rgba(0,0,0,.12)}
+.want .wr .tx{flex:1}
+.want .wr .tr{display:block;font-size:19px;line-height:1.3}
+.want .wr .ru{color:#2f2f2f}
+.want mark{background:#fff;border-radius:6px;padding:0 4px}
+
+/* SOV */
+.sov-row{display:flex;flex-wrap:wrap;gap:8px;min-height:60px;margin:18px 0 10px;align-items:center}
+.sv{padding:12px 16px;border-radius:14px;font-size:20px;font-weight:600;background:#fff;border:1px solid var(--line);transition:opacity .4s,scale .4s,background .3s,color .3s}
+.sv[data-r=v]{background:var(--amber);border-color:var(--amber)}
+.sv[data-r=o]{background:var(--lime);border-color:var(--lime)}
+.sv[data-r=l]{background:var(--ink);color:#fff;border-color:var(--ink)}
+.sv.gone{opacity:.28;scale:.86;text-decoration:line-through}
+.sov-cap{font-size:15px;color:var(--txt);min-height:48px;margin:0}
+.sov-res{display:flex;align-items:center;gap:12px;margin-top:10px;padding:14px 16px;background:#fff;border-radius:var(--rs)}
+.sov-res .tx{flex:1}
+.sov-res .tr{font-size:20px;display:block}
+.btn-s{display:inline-flex;align-items:center;gap:8px;padding:10px 16px;border-radius:999px;background:#fff;border:1px solid var(--line);font-size:14px;font-weight:600}
+.dark .btn-s{background:#2E2E2E;border-color:#2E2E2E}
+
+/* izafet */
+.izd{display:flex;flex-wrap:wrap;align-items:center;gap:10px;font-size:clamp(28px,8vw,44px);font-weight:300;letter-spacing:-.02em;padding:18px 0;border-top:1px solid #333}
+.izd:first-of-type{border-top:0}
+.izd .w{font-weight:600}
+.izd .plus{color:var(--mute);font-weight:300}
+.izd .res{display:inline-flex;align-items:baseline}
+.izd .dr{display:inline-block;transition:transform .7s cubic-bezier(.5,0,.8,.5),opacity .6s,max-width .5s .5s;max-width:1em;overflow:visible}
+.izd.go .dr{transform:translateY(.9em) rotate(35deg);opacity:0;max-width:0}
+.izd .sf{display:inline-block;color:var(--amber);font-weight:600;transition:transform .6s cubic-bezier(.2,1.6,.4,1) .9s,opacity .3s .9s;transform:translateY(-.8em) scale(.4);opacity:0}
+.izd .sf.bf{color:var(--lime)}
+.izd.go .sf{transform:none;opacity:1}
+.izd .lbl{font-size:13px;font-weight:500;color:#A9A9A9;letter-spacing:0;flex-basis:100%}
+.izd .lbl b{color:var(--amber)}
+.doc{display:grid;grid-template-columns:1fr auto;gap:2px 12px;align-items:center;padding:13px 0;border-top:1px solid var(--line)}
+.doc .tr{font-size:18px;display:block}
+.doc .tr em{font-style:normal;color:var(--lime-d)}
+.doc .ru{display:block}
+
+/* ---------- §4 interview flip ---------- */
+.fcs{display:grid;gap:12px}
+@media (min-width:760px){.fcs{grid-template-columns:repeat(2,1fr);gap:16px}}
+@media (min-width:1080px){.fcs{grid-template-columns:repeat(3,1fr)}}
+.fc{perspective:1200px;text-align:left;cursor:pointer}
+.fc-in{display:grid;transition:transform .7s cubic-bezier(.3,1.3,.5,1);transform-style:preserve-3d;min-height:230px}
+.fc.flipped .fc-in{transform:rotateY(180deg)}
+.fc-f,.fc-b{grid-area:1/1;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:var(--r);padding:22px;display:flex;flex-direction:column;gap:10px}
+.fc-f{background:var(--card)}
+.fc-b{background:var(--ink);color:#fff;transform:rotateY(180deg)}
+.fc:nth-child(3n+2) .fc-f{background:var(--amber)}
+.fc:nth-child(3n+3) .fc-f{background:var(--lime)}
+.fc .top2{display:flex;justify-content:space-between;align-items:center;font-size:14px;font-weight:600}
+.fc .q{font-size:23px;font-weight:600;line-height:1.25;letter-spacing:-.01em}
+.fc .hint{margin-top:auto;font-size:13px;display:flex;align-items:center;gap:6px;opacity:.7}
+.fc-b .mean{font-size:15px;color:#A9A9A9}
+.fc-b .ans{font-size:18px;font-weight:600;line-height:1.35}
+.fc-b .ansru{font-size:14px;color:#A9A9A9}
+.fc-b .row{display:flex;gap:10px;align-items:flex-start}
+
+/* phone call */
+.callwrap{display:grid;gap:16px;align-items:start}
+@media (min-width:900px){.callwrap{grid-template-columns:auto 1fr;gap:28px}}
+.phone{width:min(330px,100%);margin:0 auto;background:#111;border-radius:52px;padding:10px;box-shadow:0 40px 60px -40px rgba(0,0,0,.45)}
+.scr{height:600px;border-radius:43px;background:linear-gradient(180deg,#0E3B2A 0%,#18563C 55%,#1F6A47 100%);position:relative;overflow:hidden;display:flex;flex-direction:column}
+.sbar{display:flex;justify-content:space-between;align-items:center;padding:16px 26px 6px;color:#fff;font-size:14px;font-weight:600}
+.isl{width:96px;height:28px;background:#000;border-radius:20px}
+.caller{align-self:center;margin:8px 0 6px;background:var(--amber);border-radius:999px;padding:9px 18px;font-size:14px;font-weight:600;display:flex;gap:8px;align-items:center}
+.thread{flex:1;overflow-y:auto;padding:10px 12px 14px;display:flex;flex-direction:column;gap:8px;scrollbar-width:none}
+.thread::-webkit-scrollbar{display:none}
+.bub{max-width:88%;border-radius:20px;padding:10px 12px;display:flex;gap:8px;align-items:flex-start;background:#fff;color:var(--ink)}
+.bub.me{align-self:flex-end;background:var(--amber)}
+.bub .tx{flex:1;min-width:0}
+.bub .tr{display:block;font-size:15px;line-height:1.3}
+.bub .ru{display:block;font-size:12px;color:#6a6a6a;line-height:1.3;margin-top:2px}
+.bub .say{width:30px;height:30px}
+.bub .say .ic{width:14px;height:14px}
+.bub.typing{width:62px;justify-content:center;gap:4px;padding:14px}
+.bub.typing i{width:6px;height:6px;border-radius:50%;background:#999;animation:blink 1s infinite}
+.bub.typing i:nth-child(2){animation-delay:.15s}.bub.typing i:nth-child(3){animation-delay:.3s}
+@keyframes blink{50%{opacity:.25}}
+.pnav{margin:0 12px 14px;background:rgba(255,255,255,.14);border-radius:22px;display:flex;justify-content:space-around;align-items:center;padding:8px}
+.pnav span{width:44px;height:44px;border-radius:14px;display:grid;place-items:center;color:#fff}
+.pnav span.on{background:var(--amber);color:var(--ink)}
+.ctrls{display:flex;gap:8px;justify-content:center;margin-top:12px}
+
+/* email */
+.mail{background:#fff;border-radius:var(--rs);overflow:hidden;border:1px solid var(--line)}
+.mail .mbar{display:flex;gap:6px;padding:12px 14px;border-bottom:1px solid var(--line)}
+.mail .mbar i{width:10px;height:10px;border-radius:50%;background:var(--card2)}
+.mail .mbar i:first-child{background:var(--amber)}.mail .mbar i:nth-child(2){background:var(--lime)}
+.mp{display:grid;grid-template-columns:36px 1fr auto;gap:2px 10px;align-items:center;padding:13px 14px;border-top:1px solid var(--line)}
+.mp:first-of-type{border-top:0}
+.mp .n{font-size:13px;color:var(--mute);font-weight:600}
+.mp .lab{grid-column:2/4;font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:var(--mute);font-weight:700}
+.mp .n{grid-row:1/3}
+.mp .tx{min-width:0}
+.mp .tr{display:block;font-size:17px;line-height:1.35}
+.mp .ru{display:block}
+.mp.hi{background:#FFF8D6}
+
+/* ---------- §5 errors accordion ---------- */
+.errs{display:flex;flex-direction:column;gap:10px;max-width:760px}
+.er{background:var(--card);border-radius:var(--r);transition:background .35s,color .35s}
+.er>button{display:flex;justify-content:space-between;align-items:center;width:100%;padding:22px 24px;font-size:19px;font-weight:500;text-align:left;gap:12px}
+.er>button .n{font-weight:400}
+.er .bd{display:grid;grid-template-rows:0fr;transition:grid-template-rows .45s cubic-bezier(.3,.9,.3,1)}
+.er .bd>div{overflow:hidden;min-height:0}
+.er.open{background:var(--ink);color:#fff}
+.er.open .bd{grid-template-rows:1fr}
+.er .in{padding:0 24px 24px}
+.xo{display:flex;align-items:center;gap:10px;padding:10px 0;font-size:19px}
+.xo .m{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;flex:none}
+.xo .m .ic{width:15px;height:15px}
+.xo.no .m{background:#3A3A3A;color:#ff8f7a}
+.xo.no .t{text-decoration:line-through;text-decoration-color:rgba(255,143,122,.7);color:#bbb}
+.xo.ok .m{background:var(--lime);color:var(--ink)}
+.xo .t{flex:1}
+.er .why{font-size:15px;color:#C9C9C9;margin:8px 0 0;max-width:560px}
+
+/* ---------- §6 exceptions ---------- */
+.xcs{display:grid;gap:12px}
+@media (min-width:700px){.xcs{grid-template-columns:repeat(2,1fr);gap:16px}}
+@media (min-width:1080px){.xcs{grid-template-columns:repeat(3,1fr)}}
+.xc{border-radius:var(--r);padding:22px;background:var(--card);cursor:pointer}
+.xc.dark{background:var(--ink);color:#fff}
+.xc .tg{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;background:#fff;border-radius:999px;padding:6px 11px}
+.xc.dark .tg{background:#2E2E2E}
+.xc .mo{display:flex;align-items:center;flex-wrap:wrap;gap:10px;font-size:34px;font-weight:300;letter-spacing:-.02em;margin:18px 0 12px;line-height:1.1}
+.xc .mo .ar{color:var(--mute);font-size:24px}
+.xc .mo .b{font-weight:600}
+.xc .mo .x{display:inline-block;transition:transform .5s,opacity .5s,color .3s}
+.xc.go .mo .x.drop{transform:translateY(.5em) rotate(30deg);opacity:.15}
+.xc .mo .c{display:inline-block;color:var(--amber);font-weight:700;transition:transform .55s cubic-bezier(.2,1.6,.4,1),opacity .3s;transform:rotateX(90deg) scale(.5);opacity:0}
+.xc.go .mo .c{transform:none;opacity:1}
+.xc .mo .c.d1{transition-delay:.15s}.xc .mo .c.d2{transition-delay:.3s}.xc .mo .c.d3{transition-delay:.45s}
+.xc:not(.dark) .mo .c{color:#C79A00}
+.xc .ctx{display:flex;align-items:center;gap:10px;border-top:1px solid rgba(128,128,128,.25);padding-top:12px}
+.xc .ctx .tx{flex:1}
+.xc .ctx .tr{display:block;font-size:17px}
+.xc .why{font-size:14px;color:var(--txt);margin:0 0 12px}
+.xc.dark .why{color:#BDBDBD}
+
+/* ---------- §7 summary ---------- */
+.sum{display:grid;gap:12px}
+@media (min-width:700px){.sum{grid-template-columns:repeat(2,1fr);gap:16px}}
+@media (min-width:1080px){.sum{grid-template-columns:repeat(3,1fr)}}
+.sm{border-radius:var(--r);padding:22px;background:var(--card);display:flex;flex-direction:column;gap:8px;min-height:200px}
+.sm:nth-child(1){background:var(--ink);color:#fff}
+.sm:nth-child(4){background:var(--amber)}
+.sm:nth-child(5){background:var(--lime)}
+.sm .chead{margin:0}
+.sm .f{font-size:17px;line-height:1.4}
+.sm .ex{margin-top:auto;display:flex;align-items:center;gap:10px;font-weight:600;font-size:18px}
+.sm .ex span{flex:1}
+.aph{font-weight:300;font-size:clamp(30px,7.6vw,60px);line-height:1.08;letter-spacing:-.03em;margin:56px 0 0;max-width:900px}
+.aph b{font-weight:600}
+
+/* ---------- §8 exercises ---------- */
+.score{display:grid;gap:12px;margin-bottom:16px}
+@media (min-width:760px){.score{grid-template-columns:1fr auto auto;align-items:stretch}}
+.score .sq{background:var(--card);border-radius:var(--r);padding:18px 24px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;min-width:120px}
+.score .sq b{font-size:30px;font-weight:500}
+.score .sq span{font-size:13px;color:var(--mute)}
+.sqs{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (min-width:760px){.sqs{display:contents}}
+.exs{display:grid;gap:12px}
+@media (min-width:900px){.exs{grid-template-columns:repeat(2,1fr);gap:16px}}
+.ex{min-width:0;background:var(--card);border-radius:var(--r);padding:22px;display:flex;flex-direction:column;gap:12px}
+.ex .eh{display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:14px;font-weight:600}
+.ex .eh .tp{background:#fff;border-radius:999px;padding:5px 11px;font-size:12px;letter-spacing:.04em;text-transform:uppercase}
+.ex .qq{font-size:19px;font-weight:500;line-height:1.35}
+.ex .qq b{font-weight:700}
+.opts{display:flex;flex-direction:column;gap:8px}
+.op{background:#fff;border:1px solid var(--line);border-radius:16px;padding:13px 16px;text-align:left;font-size:17px;font-weight:500;transition:background .25s,border-color .25s,color .25s}
+.op:hover{border-color:#cfcfcf}
+.op.ok{background:var(--lime);border-color:var(--lime)}
+.op.no{background:var(--ink);color:#fff;border-color:var(--ink)}
+.op:disabled{cursor:default}
+.tin{display:flex;gap:8px}
+.tin input{flex:1;min-width:0;font:inherit;font-size:18px;padding:13px 16px;border-radius:16px;border:1px solid var(--line);background:#fff;outline:none}
+.tin input:focus{border-color:var(--ink)}
+.go-btn{padding:12px 18px;border-radius:16px;background:var(--ink);color:#fff;font-weight:600;font-size:15px;flex:none}
+.kbd{display:flex;flex-wrap:wrap;gap:6px}
+.kbd button{min-width:40px;height:40px;border-radius:12px;background:#fff;border:1px solid var(--line);font-size:17px;font-weight:600}
+.oline{min-height:56px;display:flex;flex-wrap:wrap;gap:6px;align-items:center;padding:8px;border-radius:16px;border:1.5px dashed #cfcfcf;background:#fff}
+.oline:empty::before{content:"Нажимай на блоки по порядку";color:var(--mute);font-size:14px;padding-left:6px}
+.opool{display:flex;flex-wrap:wrap;gap:6px}
+.ob{padding:10px 14px;border-radius:12px;background:var(--ink);color:#fff;font-size:17px;font-weight:600}
+.oline .ob{background:var(--amber);color:var(--ink)}
+.oprev{font-size:15px;color:var(--txt);min-height:22px}
+.orow{display:flex;gap:8px;flex-wrap:wrap}
+.mt2c{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.mt2c .col{display:flex;flex-direction:column;gap:8px}
+.mb{background:#fff;border:1px solid var(--line);border-radius:14px;padding:12px;font-size:16px;font-weight:600;text-align:left;transition:background .2s,border-color .2s,opacity .3s}
+.mb.sel{border-color:var(--ink);background:var(--amber)}
+.mb.done{background:var(--lime);border-color:var(--lime);opacity:.85;cursor:default}
+.mb.bad{background:var(--ink);color:#fff}
+.fb{display:none;border-radius:16px;padding:14px 16px;font-size:15px;line-height:1.45}
+.fb.show{display:block}
+.fb.ok{background:var(--lime)}
+.fb.no{background:var(--ink);color:#fff}
+.fb b{display:block;font-size:16px;margin-bottom:2px}
+.fb .say{width:32px;height:32px;margin-left:6px}
+.result{margin-top:16px}
+.result .big{margin:10px 0}
+
+/* ---------- AD ---------- */
+.pains{display:grid;gap:12px}
+@media (min-width:760px){.pains{grid-template-columns:1fr 1fr;gap:16px}}
+.pain p{margin:0 0 10px;font-size:17px;line-height:1.5}
+.pain p.k{font-weight:600}
+.facts{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media (min-width:900px){.facts{grid-template-columns:repeat(3,1fr);gap:16px}}
+.fact{border-radius:var(--r);padding:20px;background:var(--card);display:flex;flex-direction:column;gap:6px;min-height:190px}
+.fact.dark{background:var(--ink);color:#fff}.fact.amber{background:var(--amber)}.fact.lime{background:var(--lime)}
+.fact b{font-size:clamp(40px,11vw,64px);font-weight:400;letter-spacing:-.04em;line-height:1}
+.fact .t{font-size:16px;font-weight:600;line-height:1.3}
+.fact .s{font-size:13px;color:var(--txt);margin-top:auto;line-height:1.4}
+.fact.dark .s{color:#bdbdbd}
+.fact .top3{display:flex;justify-content:space-between;align-items:center}
+.fact .top3 .ic{width:22px;height:22px}
+.lvls .lv{margin-top:18px}
+.lvls .lv .h{display:flex;justify-content:space-between;font-size:15px;margin-bottom:8px}
+.lvls .lv .h b{font-weight:600}
+.dbar{display:flex;gap:3px;height:34px}
+.dbar .a{background:var(--lime);border-radius:6px;display:flex;align-items:center;padding-left:10px;font-size:13px;font-weight:700;color:var(--ink);transform-origin:left center}
+.dbar .b{background:var(--amber);border-radius:6px;display:flex;align-items:center;padding-left:10px;font-size:13px;font-weight:700;color:var(--ink);transform-origin:left center}
+.show2{display:grid;gap:16px}
+@media (min-width:900px){.show2{grid-template-columns:1.25fr 1fr;gap:20px;align-items:start}}
+.bframe{background:var(--card);border-radius:var(--rs);padding:8px;overflow:hidden}
+.bframe .dots{display:flex;gap:5px;padding:4px 6px 9px}
+.bframe .dots i{width:9px;height:9px;border-radius:50%;background:#d5d5d5}
+.bframe video,.bframe img{border-radius:12px;width:100%;background:#e9e9e9;aspect-ratio:1100/522;object-fit:cover}
+.cap{font-size:20px;font-weight:400;margin:14px 4px 0;letter-spacing:-.01em}
+.cap small{display:block;font-size:14px;color:var(--mute);margin-top:2px}
+.pshot{width:min(270px,78%);margin:0 auto;background:#111;border-radius:40px;padding:8px}
+.pshot img{border-radius:32px;width:100%}
+.revs{display:grid;grid-auto-flow:column;grid-auto-columns:84%;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px var(--gut) 10px;margin:0 calc(var(--gut) * -1);scrollbar-width:none}
+.revs::-webkit-scrollbar{display:none}
+@media (min-width:900px){.revs{grid-auto-flow:row;grid-template-columns:repeat(2,1fr);overflow:visible;padding:0;margin:0}}
+.rev{scroll-snap-align:center;display:flex;flex-direction:column;gap:14px}
+.rev q{font-size:19px;line-height:1.45;font-weight:300;quotes:none}
+.rev q b{font-weight:600}
+.rev .who{margin-top:auto;font-size:15px}
+.rev .who small{display:block;color:#A9A9A9}
+.price{display:grid;gap:18px}
+@media (min-width:900px){.price{grid-template-columns:1fr 1fr;align-items:end}}
+.price .pv{font-size:clamp(84px,24vw,170px);font-weight:300;letter-spacing:-.06em;line-height:.9}
+.price ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+.price li{display:flex;gap:10px;align-items:flex-start;font-size:16px;line-height:1.4}
+.price li .ic{margin-top:2px}
+.cta{display:flex;flex-direction:column;gap:10px;margin-top:22px}
+@media (min-width:600px){.cta{flex-direction:row}}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:18px 26px;border-radius:999px;font-weight:700;font-size:18px;text-decoration:none;transition:scale .2s}
+.btn:active{scale:.97}
+.btn.k{background:var(--ink);color:#fff}
+.btn.w{background:#fff;color:var(--ink)}
+.btn.lm{background:var(--lime);color:var(--ink)}
+.fbuy{position:fixed;right:12px;bottom:12px;z-index:40;translate:0 140%;transition:translate .5s cubic-bezier(.3,1.3,.5,1);box-shadow:0 16px 30px -12px rgba(0,0,0,.35)}
+.fbuy.show{translate:0 0}
+.fbuy .btn{padding:14px 20px;font-size:16px;background:var(--amber);color:var(--ink)}
+
+
+/* ---------- visuals ---------- */
+.ico{width:42px;height:42px;border-radius:50%;background:#fff;display:inline-grid;place-items:center;flex:none;border:1px solid var(--line)}
+.ico .ic{width:19px;height:19px}
+.dark .ico{background:#2E2E2E;border-color:#3A3A3A;color:var(--amber)}
+.amber .ico,.lime .ico{background:rgba(255,255,255,.8);border-color:transparent}
+.ct{display:inline-flex;align-items:center;gap:12px}
+.kick .ic{width:16px;height:16px}
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:10px;position:relative}
+@media (min-width:760px){.duo{gap:16px}}
+.ph{margin:0;border-radius:var(--r);overflow:hidden;position:relative;aspect-ratio:3/4;background:var(--card)}
+@media (min-width:760px){.ph{aspect-ratio:16/10}}
+.ph img{width:100%;height:100%;object-fit:cover}
+.ph figcaption{position:absolute;left:10px;right:10px;bottom:10px;background:#fff;border-radius:18px;padding:10px 12px;font-size:13px;line-height:1.35;color:var(--txt)}
+.ph figcaption b{display:inline-block;font-size:20px;color:var(--ink);margin-right:6px}
+.ph .tagp{position:absolute;left:10px;top:10px;background:var(--amber);border-radius:999px;padding:6px 12px;font-size:13px;font-weight:700}
+.ph.l .tagp{background:var(--lime)}
+.duo .vs{position:absolute;left:50%;top:42%;translate:-50% -50%;width:56px;height:56px;border-radius:50%;background:var(--ink);color:var(--amber);display:grid;place-items:center;z-index:2;box-shadow:0 0 0 6px #fff}
+.duo .vs svg{width:34px;height:34px}
+.bnr{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:28px}
+@media (min-width:760px){.bnr{gap:16px}}
+.bt{display:block;border-radius:var(--rs);overflow:hidden;position:relative;aspect-ratio:3/4.2;text-decoration:none;background:var(--card)}
+@media (min-width:760px){.bt{aspect-ratio:16/11;border-radius:var(--r)}}
+.bt img{width:100%;height:100%;object-fit:cover;transition:scale .5s}
+.bt:hover img{scale:1.05}
+.bt .ico{position:absolute;left:8px;top:8px;width:36px;height:36px}
+.bt span.l{position:absolute;left:8px;right:8px;bottom:8px;background:#fff;border-radius:999px;padding:6px 10px;font-size:13px;font-weight:700;text-align:center}
+.bt:nth-child(1) span.l{background:var(--amber)}.bt:nth-child(3) span.l{background:var(--lime)}
+.doc{grid-template-columns:auto 1fr auto!important}
+.doc .di{width:38px;height:38px;border-radius:12px;background:#fff;display:grid;place-items:center;border:1px solid var(--line)}
+.doc .di .ic{width:17px;height:17px}
+.dark .doc .di{background:#2E2E2E;border-color:#3A3A3A;color:var(--amber)}
+.card:not(.dark) .doc .di{background:#fff}
+.lx{position:relative}
+.lx .li{position:absolute;right:12px;top:12px;width:34px;height:34px;border-radius:50%;background:#fff;display:grid;place-items:center}
+.lx .li .ic{width:16px;height:16px}
+.lx.on .li{background:var(--ink);color:var(--amber)}
+.rg-row{grid-template-columns:auto 1fr auto!important}
+.rg-row .rg-lab{grid-column:2/4}
+.rg-row .ri{grid-row:1/3;width:40px;height:40px;border-radius:12px;background:#fff;display:grid;place-items:center;align-self:center}
+.rg-row .ri .ic{width:18px;height:18px}
+.er>button .ct .ico{width:38px;height:38px}
+.er.open>button .ico{background:#2E2E2E;border-color:#3A3A3A;color:var(--amber)}
+.xc .tg{display:inline-flex;align-items:center;gap:6px}
+.xc .tg .ic{width:14px;height:14px}
+.xc .xph{border-radius:16px;overflow:hidden;aspect-ratio:416/178;margin:-6px -6px 14px;background:#333}
+.xc .xph img{width:100%;height:100%;object-fit:cover}
+.sm .bi{width:52px;height:52px;border-radius:16px;background:#fff;display:grid;place-items:center;margin-bottom:6px}
+.sm .bi .ic{width:24px;height:24px}
+.sm:nth-child(1) .bi{background:#2E2E2E;color:var(--amber)}
+.ex .eh .tp{display:inline-flex;align-items:center;gap:6px}
+.ex .eh .tp .ic{width:13px;height:13px}
+.st .si{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:#fff;margin-bottom:14px}
+.st.dark .si{background:#2E2E2E;color:var(--amber)}
+.st .si .ic{width:20px;height:20px}
+.balls{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:28px}
+.ball{display:flex;flex-direction:column;align-items:center;text-align:center;gap:10px}
+.ball i{display:block;width:min(96px,24vw);aspect-ratio:1;border-radius:50%;
+  background:radial-gradient(circle at 32% 28%,rgba(255,255,255,.75) 0,rgba(255,255,255,0) 34%),radial-gradient(circle at 70% 75%,rgba(0,0,0,.28) 0,rgba(0,0,0,0) 55%),radial-gradient(circle,rgba(0,0,0,.13) 26%,transparent 30%) 0 0/11px 11px,var(--bc);
+  box-shadow:inset -8px -10px 18px rgba(0,0,0,.18),0 18px 26px -18px rgba(0,0,0,.45)}
+.ball b{font-size:16px;font-weight:600}
+.ball span{font-size:12px;color:var(--mute);line-height:1.35}
+@keyframes bob{50%{translate:0 -8px}}
+.ball i{animation:bob 3.6s ease-in-out infinite}
+.ball:nth-child(2) i{animation-delay:.6s}.ball:nth-child(3) i{animation-delay:1.2s}
+.fc-b .say{background:#2E2E2E;border-color:#3A3A3A;color:#fff}
+.iv-stat{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:12px}
+.iv-stat div{background:var(--card);border-radius:var(--rs);padding:14px 10px;display:flex;flex-direction:column;align-items:center;gap:4px;text-align:center}
+.iv-stat b{font-size:26px;font-weight:500}
+.iv-stat span{font-size:12px;color:var(--mute)}
+
+
+.hgrid{display:grid;gap:18px}
+@media (min-width:860px){.hgrid{grid-template-columns:1.25fr 1fr;align-items:end;gap:32px}}
+.hshot{margin:22px 0 0;border-radius:var(--rs);overflow:hidden;background:#fff;aspect-ratio:635/384;animation:popIn .8s cubic-bezier(.2,1.3,.4,1) .15s both}
+.hshot img{width:100%;height:100%;object-fit:cover}
+.htags{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+.htags span{display:inline-flex;align-items:center;gap:6px;background:#fff;border-radius:999px;padding:7px 12px;font-size:13px;font-weight:600}
+.htags .ic{width:14px;height:14px}
+.shot{margin:0;border-radius:var(--r);overflow:hidden;background:var(--card);border:1px solid var(--line);position:relative}
+.shot img{width:100%;height:auto;display:block}
+.shot figcaption{padding:12px 14px 14px;font-size:14px;color:var(--txt);display:flex;align-items:center;gap:10px;background:#fff}
+.shot figcaption b{font-size:20px;color:var(--ink);font-weight:700}
+.shot .tagp{position:absolute;left:10px;top:10px;background:var(--amber);border-radius:999px;padding:6px 12px;font-size:13px;font-weight:700}
+.shot.l .tagp{background:var(--lime)}
+.duo2{display:grid;gap:12px;position:relative}
+@media (min-width:860px){.duo2{grid-template-columns:1fr 1fr;gap:16px}}
+.duo2 .vs{position:absolute;left:50%;top:50%;translate:-50% -50%;width:56px;height:56px;border-radius:50%;background:var(--ink);color:var(--amber);display:grid;place-items:center;z-index:2;box-shadow:0 0 0 6px #fff}
+.duo2 .vs svg{width:34px;height:34px}
+.nav3{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:28px}
+@media (min-width:760px){.nav3{gap:16px}}
+.n3{border-radius:var(--rs);padding:14px;text-decoration:none;display:flex;flex-direction:column;gap:18px;min-height:132px;background:var(--amber)}
+.n3:nth-child(2){background:var(--ink);color:#fff}.n3:nth-child(3){background:var(--lime)}
+.n3 .ico{width:40px;height:40px}
+.n3:nth-child(2) .ico{background:#2E2E2E;border-color:#3A3A3A;color:var(--amber)}
+.n3 b{font-size:16px;margin-top:auto}
+.n3 small{font-size:12px;opacity:.7;display:block;font-weight:500}
+@media (min-width:760px){.n3{padding:24px;border-radius:var(--r)}.n3 b{font-size:22px}}
+.phs{display:grid;grid-auto-flow:column;grid-auto-columns:58%;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px var(--gut) 12px;margin:0 calc(var(--gut) * -1);scrollbar-width:none}
+.phs::-webkit-scrollbar{display:none}
+@media (min-width:900px){.phs{grid-auto-flow:row;grid-template-columns:repeat(5,1fr);overflow:visible;padding:0;margin:0}}
+.phs figure{margin:0;scroll-snap-align:center}
+.phs .pf{background:#111;border-radius:34px;padding:7px}
+.phs .pf img{width:100%;height:auto;aspect-ratio:560/1212;border-radius:28px;display:block}
+.phs figcaption{font-size:14px;font-weight:600;margin-top:10px;text-align:center}
+.phs figcaption small{display:block;font-weight:400;color:var(--mute)}
+.bshot{background:var(--card);border-radius:var(--rs);padding:8px}
+.bshot .dots{display:flex;gap:5px;padding:4px 6px 9px}
+.bshot .dots i{width:9px;height:9px;border-radius:50%;background:#d5d5d5}
+.bshot img{width:100%;height:auto;border-radius:12px;display:block}
+.rvs{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px var(--gut) 12px;margin:0 calc(var(--gut) * -1);scrollbar-width:none;align-items:flex-start}
+.rvs::-webkit-scrollbar{display:none}
+.rvi{flex:none;scroll-snap-align:center;margin:0;width:min(68vw,290px)}
+.rvi.w{width:min(84vw,520px)}
+.rvi .im{border-radius:22px;overflow:hidden;background:#111}
+.rvi img{width:100%;height:auto;display:block}
+.rvi figcaption{margin-top:10px;font-size:15px;line-height:1.4}
+.rvi figcaption b{display:block;font-size:14px;margin-bottom:2px}
+@media (min-width:1100px){.rvs{padding:4px 0 12px;margin:0}}
+
+/* footer */
+footer{padding:60px 0 90px;font-size:14px;color:var(--mute)}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;border-top:1px solid var(--line);padding-top:22px}
+.toast{position:fixed;left:50%;bottom:20px;translate:-50% calc(100% + 60px);visibility:hidden;background:var(--ink);color:#fff;border-radius:16px;padding:12px 16px;font-size:14px;z-index:60;max-width:calc(100% - 32px);transition:translate .4s}
+.toast.show{translate:-50% 0;visibility:visible}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<symbol id="i-volume-2" viewBox="0 0 24 24"><path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z"/><path d="M16 9a5 5 0 0 1 0 6"/><path d="M19.364 18.364a9 9 0 0 0 0-12.728"/></symbol>
+<symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+<symbol id="i-mail" viewBox="0 0 24 24"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></symbol>
+<symbol id="i-file-text" viewBox="0 0 24 24"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M10 9H8"/><path d="M16 13H8"/><path d="M16 17H8"/></symbol>
+<symbol id="i-briefcase" viewBox="0 0 24 24"><path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/><rect width="20" height="14" x="2" y="6" rx="2"/></symbol>
+<symbol id="i-user-round" viewBox="0 0 24 24"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 0 0-16 0"/></symbol>
+<symbol id="i-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+<symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></symbol>
+<symbol id="i-arrow-down" viewBox="0 0 24 24"><path d="M12 5v14"/><path d="m19 12-7 7-7-7"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+<symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></symbol>
+<symbol id="i-rotate-ccw" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></symbol>
+<symbol id="i-sparkles" viewBox="0 0 24 24"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/><path d="M20 3v4"/><path d="M22 5h-4"/><path d="M4 17v2"/><path d="M5 18H3"/></symbol>
+<symbol id="i-message-circle" viewBox="0 0 24 24"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></symbol>
+<symbol id="i-phone-call" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/><path d="M14.05 2a9 9 0 0 1 8 7.94"/><path d="M14.05 6A5 5 0 0 1 18 10"/></symbol>
+<symbol id="i-phone-off" viewBox="0 0 24 24"><path d="M10.68 13.31a16 16 0 0 0 3.41 2.6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7 2 2 0 0 1 1.72 2v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.42 19.42 0 0 1-3.33-2.67m-2.67-3.34a19.79 19.79 0 0 1-3.07-8.63A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91"/><line x1="22" x2="2" y1="2" y2="22"/></symbol>
+<symbol id="i-paperclip" viewBox="0 0 24 24"><path d="M13.234 20.252 21 12.3"/><path d="m16 6-8.414 8.586a2 2 0 0 0 0 2.828 2 2 0 0 0 2.828 0l8.414-8.586a4 4 0 0 0 0-5.656 4 4 0 0 0-5.656 0l-8.415 8.585a6 6 0 1 0 8.486 8.486"/></symbol>
+<symbol id="i-send" viewBox="0 0 24 24"><path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"/><path d="m21.854 2.147-10.94 10.939"/></symbol>
+<symbol id="i-lightbulb" viewBox="0 0 24 24"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/></symbol>
+<symbol id="i-triangle-alert" viewBox="0 0 24 24"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></symbol>
+<symbol id="i-circle-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></symbol>
+<symbol id="i-circle-x" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6"/><path d="m9 9 6 6"/></symbol>
+<symbol id="i-graduation-cap" viewBox="0 0 24 24"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></symbol>
+<symbol id="i-book-open" viewBox="0 0 24 24"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></symbol>
+<symbol id="i-clapperboard" viewBox="0 0 24 24"><path d="M20.2 6 3 11l-.9-2.4c-.3-1.1.3-2.2 1.3-2.5l13.5-4c1.1-.3 2.2.3 2.5 1.3Z"/><path d="m6.2 5.3 3.1 3.9"/><path d="m12.4 3.4 3.1 4"/><path d="M3 11h18v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z"/></symbol>
+<symbol id="i-headphones" viewBox="0 0 24 24"><path d="M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3"/></symbol>
+<symbol id="i-smartphone" viewBox="0 0 24 24"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></symbol>
+<symbol id="i-layers" viewBox="0 0 24 24"><path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z"/><path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12"/><path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17"/></symbol>
+<symbol id="i-trophy" viewBox="0 0 24 24"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></symbol>
+<symbol id="i-infinity" viewBox="0 0 24 24"><path d="M12 12c-2-2.67-4-4-6-4a4 4 0 1 0 0 8c2 0 4-1.33 6-4Zm0 0c2 2.67 4 4 6 4a4 4 0 0 0 0-8c-2 0-4 1.33-6 4Z"/></symbol>
+<symbol id="i-shopping-cart" viewBox="0 0 24 24"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></symbol>
+<symbol id="i-shuffle" viewBox="0 0 24 24"><path d="m18 14 4 4-4 4"/><path d="m18 2 4 4-4 4"/><path d="M2 18h1.973a4 4 0 0 0 3.3-1.7l5.454-8.6a4 4 0 0 1 3.3-1.7H22"/><path d="M2 6h1.972a4 4 0 0 1 3.6 2.2"/><path d="M22 18h-6.041a4 4 0 0 1-3.3-1.8l-.359-.45"/></symbol>
+<symbol id="i-chevron-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+<symbol id="i-chevron-right" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></symbol>
+<symbol id="i-repeat" viewBox="0 0 24 24"><path d="m17 2 4 4-4 4"/><path d="M3 11v-1a4 4 0 0 1 4-4h14"/><path d="m7 22-4-4 4-4"/><path d="M21 13v1a4 4 0 0 1-4 4H3"/></symbol>
+<symbol id="i-eye" viewBox="0 0 24 24"><path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"/><circle cx="12" cy="12" r="3"/></symbol>
+<symbol id="i-building-2" viewBox="0 0 24 24"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"/><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"/><path d="M10 6h4"/><path d="M10 10h4"/><path d="M10 14h4"/><path d="M10 18h4"/></symbol>
+<symbol id="i-handshake" viewBox="0 0 24 24"><path d="m11 17 2 2a1 1 0 1 0 3-3"/><path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4"/><path d="m21 3 1 11h-2"/><path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3"/><path d="M3 4h8"/></symbol>
+<symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></symbol>
+<symbol id="i-shield" viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/></symbol>
+<symbol id="i-hash" viewBox="0 0 24 24"><line x1="4" x2="20" y1="9" y2="9"/><line x1="4" x2="20" y1="15" y2="15"/><line x1="10" x2="8" y1="3" y2="21"/><line x1="16" x2="14" y1="3" y2="21"/></symbol>
+<symbol id="i-zap" viewBox="0 0 24 24"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/></symbol>
+<symbol id="i-ear" viewBox="0 0 24 24"><path d="M6 8.5a6.5 6.5 0 1 1 13 0c0 6-6 6-6 10a3.5 3.5 0 1 1-7 0"/><path d="M15 8.5a2.5 2.5 0 0 0-5 0v1a2 2 0 1 1 0 4"/></symbol>
+<symbol id="i-mic" viewBox="0 0 24 24"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" x2="12" y1="19" y2="22"/></symbol>
+<symbol id="i-play" viewBox="0 0 24 24"><polygon points="6 3 20 12 6 21 6 3"/></symbol>
+<symbol id="i-wallet" viewBox="0 0 24 24"><path d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1"/><path d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4"/></symbol>
+<symbol id="i-id-card" viewBox="0 0 24 24"><path d="M16 10h2"/><path d="M16 14h2"/><path d="M6.17 15a3 3 0 0 1 5.66 0"/><circle cx="9" cy="11" r="2"/><rect x="2" y="5" width="20" height="14" rx="2"/></symbol>
+<symbol id="i-landmark" viewBox="0 0 24 24"><line x1="3" x2="21" y1="22" y2="22"/><line x1="6" x2="6" y1="18" y2="11"/><line x1="10" x2="10" y1="18" y2="11"/><line x1="14" x2="14" y1="18" y2="11"/><line x1="18" x2="18" y1="18" y2="11"/><polygon points="12 2 20 7 4 7"/></symbol>
+<symbol id="i-receipt" viewBox="0 0 24 24"><path d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1Z"/><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"/><path d="M12 17.5v-11"/></symbol>
+<symbol id="i-hourglass" viewBox="0 0 24 24"><path d="M5 22h14"/><path d="M5 2h14"/><path d="M17 22v-4.172a2 2 0 0 0-.586-1.414L12 12l-4.414 4.414A2 2 0 0 0 7 17.828V22"/><path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2"/></symbol>
+<symbol id="i-clipboard-list" viewBox="0 0 24 24"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="M12 11h4"/><path d="M12 16h4"/><path d="M8 11h.01"/><path d="M8 16h.01"/></symbol>
+<symbol id="i-log-out" viewBox="0 0 24 24"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" x2="9" y1="12" y2="12"/></symbol>
+<symbol id="i-megaphone" viewBox="0 0 24 24"><path d="m3 11 18-5v12L3 14v-3z"/><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/></symbol>
+<symbol id="i-languages" viewBox="0 0 24 24"><path d="m5 8 6 6"/><path d="m4 14 6-6 2-3"/><path d="M2 5h12"/><path d="M7 2h1"/><path d="m22 22-5-10-5 10"/><path d="M14 18h6"/></symbol>
+<symbol id="i-puzzle" viewBox="0 0 24 24"><path d="M15.39 4.39a1 1 0 0 0 1.68-.474 2.5 2.5 0 1 1 3.014 3.015 1 1 0 0 0-.474 1.68l1.683 1.682a2.414 2.414 0 0 1 0 3.414L19.61 15.39a1 1 0 0 1-1.68-.474 2.5 2.5 0 1 0-3.014 3.015 1 1 0 0 1 .474 1.68l-1.683 1.682a2.414 2.414 0 0 1-3.414 0L8.61 19.61a1 1 0 0 0-1.68.474 2.5 2.5 0 1 1-3.014-3.015 1 1 0 0 0 .474-1.68l-1.683-1.682a2.414 2.414 0 0 1 0-3.414L4.39 8.61a1 1 0 0 1 1.68.474 2.5 2.5 0 1 0 3.014-3.015 1 1 0 0 1-.474-1.68l1.683-1.682a2.414 2.414 0 0 1 3.414 0z"/></symbol>
+<symbol id="i-list-ordered" viewBox="0 0 24 24"><path d="M10 12h11"/><path d="M10 18h11"/><path d="M10 6h11"/><path d="M4 10h2"/><path d="M4 6h1v4"/><path d="M6 18H4c0-1 2-2 2-3s-1-1.5-2-1"/></symbol>
+<symbol id="i-pen-line" viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.376 3.622a1 1 0 0 1 3.002 3.002L7.368 18.635a2 2 0 0 1-.855.506l-2.872.838a.5.5 0 0 1-.62-.62l.838-2.872a2 2 0 0 1 .506-.854z"/></symbol>
+<symbol id="i-messages-square" viewBox="0 0 24 24"><path d="M14 9a2 2 0 0 1-2 2H6l-4 4V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2z"/><path d="M18 9h2a2 2 0 0 1 2 2v11l-4-4h-6a2 2 0 0 1-2-2v-1"/></symbol>
+<symbol id="i-stamp" viewBox="0 0 24 24"><path d="M5 22h14"/><path d="M19.27 13.73A2.5 2.5 0 0 0 17.5 13h-11A2.5 2.5 0 0 0 4 15.5V17a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-1.5c0-.66-.26-1.3-.73-1.77Z"/><path d="M14 13V8.5C14 7 15 7 15 5a3 3 0 0 0-3-3c-1.66 0-3 1-3 3s1 2 1 3.5V13"/></symbol>
+<symbol id="i-at-sign" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-4 8"/></symbol>
+<symbol id="i-badge-check" viewBox="0 0 24 24"><path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"/><path d="m9 12 2 2 4-4"/></symbol>
+<symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></symbol>
+<symbol id="i-coffee" viewBox="0 0 24 24"><path d="M10 2v2"/><path d="M14 2v2"/><path d="M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1"/><path d="M6 2v2"/></symbol>
+<symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></symbol>
+<symbol id="i-hand" viewBox="0 0 24 24"><path d="M18 11V6a2 2 0 0 0-2-2a2 2 0 0 0-2 2"/><path d="M14 10V4a2 2 0 0 0-2-2a2 2 0 0 0-2 2v2"/><path d="M10 10.5V6a2 2 0 0 0-2-2a2 2 0 0 0-2 2v8"/><path d="M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15"/></symbol>
+<symbol id="i-crown" viewBox="0 0 24 24"><path d="M11.562 3.266a.5.5 0 0 1 .876 0L15.39 8.87a1 1 0 0 0 1.516.294L21.183 5.5a.5.5 0 0 1 .798.519l-2.834 10.246a1 1 0 0 1-.956.734H5.81a1 1 0 0 1-.957-.734L2.02 6.02a.5.5 0 0 1 .798-.519l4.276 3.664a1 1 0 0 0 1.516-.294z"/><path d="M5 21h14"/></symbol>
+<symbol id="i-signature" viewBox="0 0 24 24"><path d="m21 17-2.156-1.868A.5.5 0 0 0 18 15.5v.5a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1c0-2.545-3.991-3.97-8.5-4a1 1 0 0 0 0 5c4.153 0 4.745-11.295 5.708-13.5a2.5 2.5 0 1 1 3.31 3.284"/><path d="M3 21h18"/></symbol>
+<symbol id="i-calendar-days" viewBox="0 0 24 24"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/><path d="M8 14h.01"/><path d="M12 14h.01"/><path d="M16 14h.01"/><path d="M8 18h.01"/><path d="M12 18h.01"/><path d="M16 18h.01"/></symbol>
+<symbol id="i-scale" viewBox="0 0 24 24"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="M7 21h10"/><path d="M12 3v18"/><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/></symbol>
+<symbol id="i-split" viewBox="0 0 24 24"><path d="M16 3h5v5"/><path d="M8 3H3v5"/><path d="M12 22v-8.3a4 4 0 0 0-1.172-2.872L3 3"/><path d="m15 9 6-6"/></symbol>
+<symbol id="i-copy" viewBox="0 0 24 24"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></symbol>
+<symbol id="i-arrow-up-down" viewBox="0 0 24 24"><path d="m21 16-4 4-4-4"/><path d="M17 20V4"/><path d="m3 8 4-4 4 4"/><path d="M7 4v16"/></symbol>
+<symbol id="i-trending-up" viewBox="0 0 24 24"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></symbol>
+<symbol id="i-plane" viewBox="0 0 24 24"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/></symbol>
+<symbol id="i-keyboard" viewBox="0 0 24 24"><path d="M10 8h.01"/><path d="M12 12h.01"/><path d="M14 8h.01"/><path d="M16 12h.01"/><path d="M18 8h.01"/><path d="M6 8h.01"/><path d="M7 16h10"/><path d="M8 12h.01"/><rect width="20" height="16" x="2" y="4" rx="2"/></symbol>
+<symbol id="i-link-2" viewBox="0 0 24 24"><path d="M9 17H7A5 5 0 0 1 7 7h2"/><path d="M15 7h2a5 5 0 1 1 0 10h-2"/><line x1="8" x2="16" y1="12" y2="12"/></symbol>
+<symbol id="i-type" viewBox="0 0 24 24"><polyline points="4 7 4 4 20 4 20 7"/><line x1="9" x2="15" y1="20" y2="20"/><line x1="12" x2="12" y1="4" y2="20"/></symbol>
+<symbol id="i-spell-check" viewBox="0 0 24 24"><path d="m6 16 6-12 6 12"/><path d="M8 12h8"/><path d="m16 20 2 2 4-4"/></symbol>
+<symbol id="i-ban" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m4.9 4.9 14.2 14.2"/></symbol>
+<symbol id="i-smile" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" x2="9.01" y1="9" y2="9"/><line x1="15" x2="15.01" y1="9" y2="9"/></symbol>
+<symbol id="i-inbox" viewBox="0 0 24 24"><polyline points="22 12 16 12 14 15 10 15 8 12 2 12"/><path d="M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"/></symbol>
+
+<symbol id="sun" viewBox="0 0 48 48"><g fill="currentColor"><circle cx="24" cy="5" r="2.6"/><circle cx="24" cy="43" r="2.6"/><circle cx="5" cy="24" r="2.6"/><circle cx="43" cy="24" r="2.6"/><circle cx="10.6" cy="10.6" r="2.6"/><circle cx="37.4" cy="37.4" r="2.6"/><circle cx="37.4" cy="10.6" r="2.6"/><circle cx="10.6" cy="37.4" r="2.6"/></g><rect x="15" y="15" width="18" height="18" rx="6" fill="none" stroke="currentColor" stroke-width="4"/></symbol>
+<symbol id="mk" viewBox="0 0 24 24"><circle cx="7.6" cy="7.6" r="4.4"/><circle cx="16.4" cy="7.6" r="4.4"/><circle cx="7.6" cy="16.4" r="4.4"/><circle cx="16.4" cy="16.4" r="2.6"/></symbol>
+</svg>
+
+<header class="top">
+  <div class="top-in wrap">
+    <a class="logo" href="#hero" aria-label="Наверх"><svg class="mk"><use href="#mk"/></svg><span>alterna</span></a>
+    <nav class="tabs" id="tabs" aria-label="Разделы">
+      <a href="#s1" data-t="s1">Что это</a>
+      <a href="#s2" data-t="s2">Зачем</a>
+      <a href="#s3" data-t="s3">Формулы</a>
+      <a href="#s4" data-t="s4">В деле</a>
+      <a href="#s5" data-t="s5">Ошибки</a>
+      <a href="#s6" data-t="s6">Исключения</a>
+      <a href="#s7" data-t="s7">Итог</a>
+      <a href="#s8" data-t="s8">Практика</a>
+      <a href="#platform" data-t="platform">Платформа</a>
+    </nav>
+  </div>
+  <div class="prog"><i id="pf"></i></div>
+</header>
+
+<main>
+<!-- ================= HERO ================= -->
+<section class="hero" id="hero">
+  <div class="wrap">
+    <div class="poster">
+      <div class="p-top">
+        <span class="p-logo"><svg class="mk"><use href="#mk"/></svg>alterna</span>
+        <svg class="sun" style="color:var(--ink)"><use href="#sun"/></svg>
+      </div>
+      <div class="p-mid hgrid">
+        <h1><b>Рабочий</b><span>турецкий</span></h1>
+        <div><p class="p-tag">Собеседование, звонки, письма и документы. Объясняю через русский. По шагам, с озвучкой каждого примера.</p>
+      <figure class="hshot"><img src="media/sc_rabota.webp" alt="Раздел Работа на платформе Alterna" width="635" height="384"></figure>
+      <div class="htags"><span><svg class="ic"><use href="#i-handshake"/></svg>Mülakat</span><span><svg class="ic"><use href="#i-phone"/></svg>Telefon</span><span><svg class="ic"><use href="#i-mail"/></svg>E-posta</span><span><svg class="ic"><use href="#i-file-text"/></svg>Belgeler</span></div></div>
+      </div>
+    </div>
+    <div class="meta">
+      <span><svg class="ic"><use href="#i-graduation-cap"/></svg>A2 - B1</span>
+      <span><svg class="ic"><use href="#i-clock"/></svg>15 минут</span>
+      <span><svg class="ic"><use href="#i-trophy"/></svg>13 заданий</span>
+      <span><svg class="ic"><use href="#i-volume-2"/></svg>Озвучка tr-TR</span>
+    </div>
+
+    <div class="stag" aria-label="Бытовой есть. Рабочего пока нет.">
+      <span class="l1">Бытовой</span><span class="l2">есть.</span><span class="l3">Рабочего</span><span class="l4">пока нет.</span>
+    </div>
+    <p class="stag-sub">Знакомо? Тогда разбираем, как его собрать. Без зубрёжки, на живых фразах.</p>
+
+    <div class="story" id="story">
+      <article class="card st">
+        <span class="si"><svg class="ic"><use href="#i-sun"/></svg></span>
+        <p>Полгода в Анталье.</p>
+        <p>В магазине понимаешь. В такси споришь. С соседкой обсуждаешь цены на помидоры.</p>
+        <p>Отправляешь резюме. Через день звонят.</p>
+        <div class="pg"><span>История</span><span>1 / 3</span></div>
+      </article>
+      <article class="card dark st">
+        <span class="si"><svg class="ic"><use href="#i-phone-call"/></svg></span>
+        <div class="dlg">
+          <p>Говорят, <i>Kendinizden bahseder misiniz?</i></p>
+          <p>Говоришь, <i>efendim?</i></p>
+          <p>Говорят, <i>kendinizden.</i></p>
+          <p>Говоришь, <i>evet.</i></p>
+          <p>Пауза. Каждое слово знакомое. Вместе нет.</p>
+        </div>
+        <div class="pg"><span>История</span><span>2 / 3</span></div>
+      </article>
+      <article class="card amber st">
+        <span class="si"><svg class="ic"><use href="#i-phone-off"/></svg></span>
+        <p>Перевод был простой: "Расскажете о себе?"</p>
+        <p>Ответ ждали на минуту. Получили одно evet.</p>
+        <p>Перезванивать не стали</p>
+        <div class="pg"><span>История</span><span>3 / 3</span></div>
+      </article>
+    </div>
+
+    <div class="author rv">
+      <div class="av"><svg class="mk"><use href="#mk"/></svg></div>
+      <p>Я Тимур. Год учил турецкий на TÖMER, работал техническим переводчиком с русского на турецкий, стажировался в консульстве Казахстана в Анталье. Ниже собрал рабочий турецкий так, как объясняю на канале: просто и по делу.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= §1 ЧТО ЭТО ================= -->
+<section class="sec" id="s1">
+  <div class="wrap">
+    <span class="kick"><svg class="ic"><use href="#i-briefcase"/></svg>01 · Что это</span>
+    <h2 class="big">Тот же язык. Другая одежда</h2>
+    <p class="lead">Бытовой и рабочий турецкий это шлёпки и туфли. Нога та же. Ходишь по-разному.</p>
+    <p class="lead">Слова почти те же. Меняются три вещи: <b>обращение</b>, <b>просьба</b> и <b>формулы вежливости</b>. Переключи и посмотри.</p>
+
+    <div class="duo2 mt2 rv">
+      <figure class="shot l"><img src="media/sc_home.webp" alt="Бытовые темы на платформе: еда, ресторан, семья" loading="lazy" width="1100" height="414"><span class="tagp">Бытовой</span><figcaption><b>Sen</b>еда, ресторан, семья, погода</figcaption></figure>
+      <span class="vs"><svg><use href="#sun"/></svg></span>
+      <figure class="shot"><img src="media/sc_work.webp" alt="Рабочие темы на платформе: профессия, деньги, университет" loading="lazy" width="1100" height="412"><span class="tagp">Рабочий</span><figcaption><b>Siz</b>профессия, деньги, университет</figcaption></figure>
+    </div>
+
+    <div class="card mt2 rv" id="reg">
+      <div class="reg-head">
+        <div class="chead" style="margin:0"><span class="ct"><span class="ico"><svg class="ic"><use href="#i-languages"/></svg></span>Одна ситуация, два турецких</span> <span class="n"></span></div>
+        <div class="seg" role="tablist"><button class="on" data-m="0">Бытовой</button><button data-m="1">Рабочий</button></div>
+      </div>
+      <div class="rg-row" data-a="Sen" data-aru="ты" data-b="Siz" data-bru="вы. С HR, начальником, клиентом">
+        <span class="ri"><svg class="ic"><use href="#i-users"/></svg></span><span class="rg-lab">Обращение</span><span class="rg-tx"><span class="rg-tr">Sen</span><span class="rg-ru">ты</span></span><button class="say" data-say="Sen" aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button>
+      </div>
+      <div class="rg-row" data-a="Selam!" data-aru="Привет!" data-b="Merhaba, iyi günler." data-bru="Здравствуйте, добрый день.">
+        <span class="ri"><svg class="ic"><use href="#i-hand"/></svg></span><span class="rg-lab">Привет</span><span class="rg-tx"><span class="rg-tr">Selam!</span><span class="rg-ru">Привет!</span></span><button class="say" data-say="Selam!" aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button>
+      </div>
+      <div class="rg-row" data-a="Bir bak." data-aru="Глянь." data-b="Bakabilir misiniz?" data-bru="Не могли бы вы посмотреть?">
+        <span class="ri"><svg class="ic"><use href="#i-message-circle"/></svg></span><span class="rg-lab">Просьба</span><span class="rg-tx"><span class="rg-tr">Bir bak.</span><span class="rg-ru">Глянь.</span></span><button class="say" data-say="Bir bak." aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button>
+      </div>
+      <div class="rg-row" data-a="Ayşe" data-aru="Айше" data-b="Ayşe Hanım" data-bru="госпожа Айше (титул после имени)">
+        <span class="ri"><svg class="ic"><use href="#i-id-card"/></svg></span><span class="rg-lab">По имени</span><span class="rg-tx"><span class="rg-tr">Ayşe</span><span class="rg-ru">Айше</span></span><button class="say" data-say="Ayşe" aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button>
+      </div>
+      <div class="rg-row" data-a="Tamam." data-aru="Ок." data-b="Tabii, memnuniyetle." data-bru="Конечно, с удовольствием.">
+        <span class="ri"><svg class="ic"><use href="#i-badge-check"/></svg></span><span class="rg-lab">Согласие</span><span class="rg-tx"><span class="rg-tr">Tamam.</span><span class="rg-ru">Ок.</span></span><button class="say" data-say="Tamam." aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button>
+      </div>
+      <div class="rg-row" data-a="Görüşürüz!" data-aru="Увидимся!" data-b="İyi çalışmalar." data-bru="Хорошей работы. Турки так прощаются с теми, кто работает">
+        <span class="ri"><svg class="ic"><use href="#i-smile"/></svg></span><span class="rg-lab">Пока</span><span class="rg-tx"><span class="rg-tr">Görüşürüz!</span><span class="rg-ru">Увидимся!</span></span><button class="say" data-say="Görüşürüz!" aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button>
+      </div>
+    </div>
+
+    <div class="chead mt2" style="margin-bottom:12px">10 слов рабочего минимума <span class="n">tap</span></div>
+    <div class="lex" id="lex">
+      <button class="lx" data-say="iş"><span class="li"><svg class="ic"><use href="#i-briefcase"/></svg></span><span class="n">01</span><b>iş</b><span>работа</span></button>
+      <button class="lx" data-say="işveren"><span class="li"><svg class="ic"><use href="#i-building-2"/></svg></span><span class="n">02</span><b>işveren</b><span>работодатель</span></button>
+      <button class="lx" data-say="çalışan"><span class="li"><svg class="ic"><use href="#i-user-round"/></svg></span><span class="n">03</span><b>çalışan</b><span>сотрудник</span></button>
+      <button class="lx" data-say="özgeçmiş"><span class="li"><svg class="ic"><use href="#i-file-text"/></svg></span><span class="n">04</span><b>özgeçmiş</b><span>резюме</span></button>
+      <button class="lx" data-say="mülakat"><span class="li"><svg class="ic"><use href="#i-handshake"/></svg></span><span class="n">05</span><b>mülakat</b><span>собеседование</span></button>
+      <button class="lx" data-say="maaş"><span class="li"><svg class="ic"><use href="#i-wallet"/></svg></span><span class="n">06</span><b>maaş</b><span>зарплата</span></button>
+      <button class="lx" data-say="sözleşme"><span class="li"><svg class="ic"><use href="#i-signature"/></svg></span><span class="n">07</span><b>sözleşme</b><span>договор</span></button>
+      <button class="lx" data-say="toplantı"><span class="li"><svg class="ic"><use href="#i-users"/></svg></span><span class="n">08</span><b>toplantı</b><span>совещание</span></button>
+      <button class="lx" data-say="mesai"><span class="li"><svg class="ic"><use href="#i-clock"/></svg></span><span class="n">09</span><b>mesai</b><span>рабочее время</span></button>
+      <button class="lx" data-say="izin"><span class="li"><svg class="ic"><use href="#i-plane"/></svg></span><span class="n">10</span><b>izin</b><span>отпуск, разрешение</span></button>
+    </div>
+  </div>
+</section>
+
+<!-- ================= §2 ЗАЧЕМ ================= -->
+<section class="sec" id="s2">
+  <div class="wrap">
+    <span class="kick g"><svg class="ic"><use href="#i-target"/></svg>02 · Зачем</span>
+    <h2 class="big">Одна просьба. Пять уровней</h2>
+    <p class="lead">Начальник слышит не слова. Он слышит тон. А тон в турецком сидит в аффиксах.</p>
+
+    <div class="grid g2 mt2">
+      <div class="card amber meter rv" id="meter">
+        <div class="q">Нужно, чтобы человек отправил тебе файл. Как попросить?</div>
+        <div class="pct"><b id="mPct">10%</b><span>/ вежливость</span></div>
+        <div class="gbar"><i class="gf" id="mBar"></i><i class="gh"></i><i class="ge"></i></div>
+        <div class="mout">
+          <div class="tx"><span class="tr" id="mTr">Gönder.</span><span class="ru" id="mRu">Отправь.</span><span class="note" id="mNote"></span></div>
+          <button class="say" id="mSay" data-say="Gönder." aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button>
+        </div>
+        <div class="mlist" id="mList"></div>
+      </div>
+      <div class="card dark rv">
+        <div class="chead"><span class="ct"><span class="ico"><svg class="ic"><use href="#i-arrow-up-down"/></svg></span>Что поменялось</span> <span class="n">4 шага</span></div>
+        <div class="srow"><span><b>-ir</b> превращает приказ в вопрос</span><span>+25</span></div>
+        <div class="srow"><span><b>-siniz</b> вместо -sin: ты стал вы</span><span>+25</span></div>
+        <div class="srow"><span><b>-ebil-</b> добавляет "могли бы"</span><span>+22</span></div>
+        <div class="srow hi"><span><b>Rica etsem</b> это "если позволите"</span><span>+18</span></div>
+        <p class="ctext mt2">Корень один: <b style="color:#fff">gönder</b>. Всё остальное прилипает к нему сзади, как вагоны к поезду. Собрал поезд правильно, и ты уже не турист, а коллега.</p>
+      </div>
+    </div>
+    <p class="punch rv">Скажешь директору Gönder, и файл, скорее всего, придёт. Вместе с выводами о тебе</p>
+  </div>
+</section>
+
+<!-- ================= §3 ФОРМУЛЫ ================= -->
+<section class="sec" id="s3">
+  <div class="wrap">
+    <span class="kick"><svg class="ic"><use href="#i-puzzle"/></svg>03 · Как строится</span>
+    <h2 class="big">Пять формул на всю работу</h2>
+    <p class="lead">Учить сотню фраз не нужно. Нужно понять пять конструкций. Дальше подставляешь слова.</p>
+
+    <div class="balls rv">
+      <div class="ball" style="--bc:var(--ink)"><i></i><b>Корень</b><span>основа, к ней всё прилипает</span></div>
+      <div class="ball" style="--bc:var(--lime)"><i></i><b>Lime</b><span>"может", буфер, верно</span></div>
+      <div class="ball" style="--bc:var(--amber)"><i></i><b>Amber</b><span>аффикс, который решает</span></div>
+    </div>
+
+    <!-- 3.1 harmony -->
+    <div class="card dark mt2 rv" id="harm">
+      <div class="chead"><span class="ct"><span class="ico"><svg class="ic"><use href="#i-users"/></svg></span>Формула 1 · Вопрос на вы</span> <span class="n">01</span></div>
+      <p class="ctext">Слово + <b style="color:var(--amber)">mI + sInIz</b>. Какую гласную взять, решает последняя гласная слова. Смотри на подсвеченную букву.</p>
+      <div class="hm-word" id="hmWord" aria-live="polite"></div>
+      <div class="hm-vars" id="hmVars">
+        <div class="hv" data-k="ı"><b>mısınız</b><small>после a, ı</small></div>
+        <div class="hv" data-k="i"><b>misiniz</b><small>после e, i</small></div>
+        <div class="hv" data-k="u"><b>musunuz</b><small>после o, u</small></div>
+        <div class="hv" data-k="ü"><b>müsünüz</b><small>после ö, ü</small></div>
+      </div>
+      <div class="hm-out">
+        <div class="tx"><span class="tr" id="hmOut">Hazır mısınız?</span><span class="ru" id="hmRu">Вы готовы?</span></div>
+        <button class="say" id="hmSay" data-say="Hazır mısınız?" aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button>
+      </div>
+      <div class="chips" id="hmChips"></div>
+    </div>
+
+    <!-- 3.2 builder -->
+    <div class="card mt rv" id="bld">
+      <div class="chead"><span class="ct"><span class="ico"><svg class="ic"><use href="#i-message-circle"/></svg></span>Формула 2 · Вежливая просьба</span> <span class="n">02</span></div>
+      <p class="ctext">"Не могли бы вы...?" Это глагол + <b>(y)abil</b> + <b>ir</b> + <b>misiniz</b>. Хвост <b>-ir misiniz</b> всегда одинаковый. Меняется только <b>abil / ebil</b>. И буфер <b>y</b>, если глагол кончается на гласную.</p>
+      <div class="seg" id="bPer"><button class="on" data-p="siz">Вы можете?</button><button data-p="ben">Можно мне?</button></div>
+      <div class="b-row" id="bRow" aria-hidden="true"></div>
+      <div class="b-out"><span class="tr" id="bOut">Gönderebilir misiniz?</span><button class="say" id="bSay" data-say="Gönderebilir misiniz?" aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div>
+      <p class="b-ru" id="bRu">Не могли бы вы отправить?</p>
+      <div class="chips" id="bChips"></div>
+      <div class="legend">
+        <span><i style="background:var(--ink)"></i>глагол</span>
+        <span><i style="background:#fff;border:2px dashed var(--amber)"></i>буфер y</span>
+        <span><i style="background:var(--lime)"></i>может</span>
+        <span><i style="background:var(--amber)"></i>время</span>
+        <span><i style="background:#fff;border:1px solid #ccc"></i>вопрос</span>
+        <span><i style="background:#fff;border:2px solid var(--ink)"></i>кто</span>
+      </div>
+    </div>
+
+    <div class="grid g2 mt">
+      <!-- 3.3 want -->
+      <div class="card lime want rv">
+        <div class="chead"><span class="ct"><span class="ico"><svg class="ic"><use href="#i-sparkles"/></svg></span>Формула 3 · Хотел бы</span> <span class="n">03</span></div>
+        <p class="ctext"><b>istiyorum</b> это "хочу". <b>isterim</b> это "хотел бы". Пара букв, а звучит на уровень выше. Перед ним глагол в начальной форме на <b>-mak / -mek</b>.</p>
+        <div class="wr"><div class="tx"><span class="tr">Bilgi almak <mark>istiyorum</mark>.</span><span class="ru">Хочу получить информацию.</span></div><button class="say" data-say="Bilgi almak istiyorum." aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div>
+        <div class="wr"><div class="tx"><span class="tr">Bilgi almak <mark>isterim</mark>.</span><span class="ru">Хотел бы получить информацию.</span></div><button class="say" data-say="Bilgi almak isterim." aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div>
+        <div class="wr"><div class="tx"><span class="tr">Bu pozisyona başvurmak <mark>isterim</mark>.</span><span class="ru">Хотел бы откликнуться на эту позицию.</span></div><button class="say" data-say="Bu pozisyona başvurmak isterim." aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div>
+        <div class="wr"><div class="tx"><span class="tr">Toplantıya katılmak <mark>isterim</mark>.</span><span class="ru">Хотел бы присоединиться к совещанию.</span></div><button class="say" data-say="Toplantıya katılmak isterim." aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div>
+      </div>
+
+      <!-- 3.4 SOV -->
+      <div class="card rv" id="sov">
+        <div class="chead"><span class="ct"><span class="ico"><svg class="ic"><use href="#i-list-ordered"/></svg></span>Формула 4 · Глагол в конце</span> <span class="n">04</span></div>
+        <p class="ctext">По-русски глагол стоит где хочет. По-турецки в конце. Всегда. А "я" часто вообще выкидывают.</p>
+        <div class="sov-row" id="sovRow"></div>
+        <p class="sov-cap" id="sovCap">По-русски: Я отправляю договор в приложении.</p>
+        <div class="sov-res"><div class="tx"><span class="tr">Sözleşmeyi ekte gönderiyorum.</span><span class="ru">Отправляю договор во вложении.</span></div><button class="say" data-say="Sözleşmeyi ekte gönderiyorum." aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div>
+        <div class="ctrls" style="justify-content:flex-start"><button class="btn-s" id="sovRe"><svg class="ic"><use href="#i-rotate-ccw"/></svg>Ещё раз</button></div>
+      </div>
+    </div>
+
+    <!-- 3.5 izafet -->
+    <div class="card dark mt rv" id="izf">
+      <div class="chead"><span class="ct"><span class="ico"><svg class="ic"><use href="#i-file-text"/></svg></span>Формула 5 · Документы</span> <span class="n">05</span></div>
+      <p class="ctext">"Трудовой договор" по-турецки это "договор работы": два существительных подряд. Второе получает хвост <b style="color:var(--amber)">-ı / -i / -u / -ü</b>. Если слово кончается на гласную, между ними встаёт буфер <b style="color:var(--lime)">s</b>.</p>
+      <div class="izd" id="iz1">
+        <span class="w">iş</span><span class="plus">+</span><span class="w">sözleşme</span><span class="plus">=</span>
+        <span class="res"><span class="w">iş sözleşme</span><span class="sf bf">s</span><span class="sf">i</span></span>
+        <span class="lbl">трудовой договор · гласная на конце, поэтому <b>буфер s</b></span>
+      </div>
+      <div class="izd" id="iz2">
+        <span class="w">çalışma</span><span class="plus">+</span><span class="w">izin</span><span class="plus">=</span>
+        <span class="res"><span class="w">çalışma iz</span><span class="w dr">i</span><span class="w">n</span><span class="sf">i</span></span>
+        <span class="lbl">разрешение на работу · <b>i выпадает</b>: izin → izni. Об этом в исключениях</span>
+      </div>
+      <div class="izd" id="iz3">
+        <span class="w">maaş</span><span class="plus">+</span><span class="w">bordro</span><span class="plus">=</span>
+        <span class="res"><span class="w">maaş bordro</span><span class="sf bf">s</span><span class="sf">u</span></span>
+        <span class="lbl">расчётный лист · последняя гласная o, поэтому <b>u</b></span>
+      </div>
+    </div>
+
+    <div class="card mt rv">
+      <div class="chead"><span class="ct"><span class="ico"><svg class="ic"><use href="#i-clipboard-list"/></svg></span>Документы, которые спросят</span> <span class="n">10</span></div>
+      <div id="docs">
+        <div class="doc"><span class="di"><svg class="ic"><use href="#i-signature"/></svg></span><div><span class="tr">iş sözleşme<em>si</em></span><span class="ru">трудовой договор</span></div><button class="say" data-say="iş sözleşmesi" aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div>
+        <div class="doc"><span class="di"><svg class="ic"><use href="#i-badge-check"/></svg></span><div><span class="tr">çalışma izn<em>i</em></span><span class="ru">разрешение на работу</span></div><button class="say" data-say="çalışma izni" aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div>
+        <div class="doc"><span class="di"><svg class="ic"><use href="#i-id-card"/></svg></span><div><span class="tr">ikamet izn<em>i</em></span><span class="ru">вид на жительство</span></div><button class="say" data-say="ikamet izni" aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div>
+        <div class="doc"><span class="di"><svg class="ic"><use href="#i-landmark"/></svg></span><div><span class="tr">vergi numara<em>sı</em></span><span class="ru">налоговый номер</span></div><button class="say" data-say="vergi numarası" aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div>
+        <div class="doc"><span class="di"><svg class="ic"><use href="#i-shield"/></svg></span><div><span class="tr">SGK giriş<em>i</em></span><span class="ru">оформление в соцстрахе (SGK)</span></div><button class="say" data-say="SGK girişi" aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div>
+        <div class="doc"><span class="di"><svg class="ic"><use href="#i-receipt"/></svg></span><div><span class="tr">maaş bordro<em>su</em></span><span class="ru">расчётный лист</span></div><button class="say" data-say="maaş bordrosu" aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div>
+        <div class="doc"><span class="di"><svg class="ic"><use href="#i-hourglass"/></svg></span><div><span class="tr">deneme süre<em>si</em></span><span class="ru">испытательный срок</span></div><button class="say" data-say="deneme süresi" aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div>
+        <div class="doc"><span class="di"><svg class="ic"><use href="#i-clipboard-list"/></svg></span><div><span class="tr">başvuru form<em>u</em></span><span class="ru">анкета соискателя</span></div><button class="say" data-say="başvuru formu" aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div>
+        <div class="doc"><span class="di"><svg class="ic"><use href="#i-log-out"/></svg></span><div><span class="tr">istifa dilekçe<em>si</em></span><span class="ru">заявление об уходе</span></div><button class="say" data-say="istifa dilekçesi" aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div>
+        <div class="doc"><span class="di"><svg class="ic"><use href="#i-megaphone"/></svg></span><div><span class="tr">iş ilan<em>ı</em></span><span class="ru">вакансия</span></div><button class="say" data-say="iş ilanı" aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= §4 В ДЕЛЕ ================= -->
+<section class="sec" id="s4">
+  <div class="wrap">
+    <span class="kick d"><svg class="ic"><use href="#i-handshake"/></svg>04 · В деле</span>
+    <h2 class="big">Собеседование, звонок, письмо</h2>
+    <p class="lead">Формулы есть. Теперь собираем из них три ситуации, без которых работу не найти.</p>
+
+    <div class="nav3 rv">
+      <a class="n3" href="#iv"><span class="ico"><svg class="ic"><use href="#i-handshake"/></svg></span><b>Mülakat<small>собеседование</small></b></a>
+      <a class="n3" href="#call"><span class="ico"><svg class="ic"><use href="#i-phone-call"/></svg></span><b>Telefon<small>звонок</small></b></a>
+      <a class="n3" href="#mailx"><span class="ico"><svg class="ic"><use href="#i-mail"/></svg></span><b>E-posta<small>письмо</small></b></a>
+    </div>
+
+    <div class="chead mt2" id="iv"><span class="ct"><span class="ico"><svg class="ic"><use href="#i-handshake"/></svg></span>Собеседование</span> <span class="n">01</span></div>
+    <p class="ctext">Семь вопросов, которые задают почти всегда. Нажми на карточку: сзади перевод и готовый ответ.</p>
+    <div class="iv-stat rv"><div><svg class="ic"><use href="#i-message-circle"/></svg><b>7</b><span>вопросов HR</span></div><div><svg class="ic"><use href="#i-phone-call"/></svg><b>9</b><span>реплик звонка</span></div><div><svg class="ic"><use href="#i-mail"/></svg><b>6</b><span>частей письма</span></div></div>
+    <div class="fcs mt" id="fcs"></div>
+
+    <div class="chead mt2" id="call" style="margin-top:56px"><span class="ct"><span class="ico"><svg class="ic"><use href="#i-phone"/></svg></span>Звонок</span> <span class="n">02</span></div>
+    <p class="ctext">Звонишь узнать про вакансию. Секретарь, ожидание, совещание. Классика.</p>
+    <div class="callwrap">
+      <div>
+        <div class="phone">
+          <div class="scr">
+            <div class="sbar"><span>9:41</span><span class="isl"></span><span>5G</span></div>
+            <div class="caller"><svg class="ic"><use href="#i-phone-call"/></svg>ABC Lojistik</div>
+            <div class="thread" id="thread"></div>
+            <div class="pnav"><span><svg class="ic"><use href="#i-message-circle"/></svg></span><span><svg class="ic"><use href="#i-mail"/></svg></span><span class="on"><svg class="ic"><use href="#i-phone"/></svg></span><span><svg class="ic"><use href="#i-users"/></svg></span><span><svg class="ic"><use href="#i-file-text"/></svg></span></div>
+          </div>
+        </div>
+        <div class="ctrls"><button class="btn-s" id="callNext"><svg class="ic"><use href="#i-play"/></svg>Дальше</button><button class="btn-s" id="callRe"><svg class="ic"><use href="#i-rotate-ccw"/></svg>Сначала</button></div>
+      </div>
+      <div class="grid">
+        <div class="card dark rv">
+          <div class="chead"><span class="ct"><span class="ico"><svg class="ic"><use href="#i-lightbulb"/></svg></span>Что тут важно</span> <span class="n"></span></div>
+          <div class="srow hi"><span><b>Buyurun</b> это "слушаю". Не "купите"</span></div>
+          <div class="srow"><span><b>Ahmet Bey'le</b>: с кем говорить, через -le</span></div>
+          <div class="srow"><span><b>görüşebilir miyim</b>: формула 2, версия "можно мне"</span></div>
+          <div class="srow"><span><b>Hatta kalın</b>: оставайтесь на линии</span></div>
+          <div class="srow"><span><b>İyi çalışmalar</b>: и на прощание тоже</span></div>
+        </div>
+        <div class="card rv">
+          <div class="chead"><span class="ct"><span class="ico"><svg class="ic"><use href="#i-phone-off"/></svg></span>Если связь плохая</span> <span class="n">5</span></div>
+          <div class="doc"><span class="di"><svg class="ic"><use href="#i-ear"/></svg></span><div><span class="tr">Sizi duyamıyorum.</span><span class="ru">Я вас не слышу.</span></div><button class="say" data-say="Sizi duyamıyorum." aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div>
+          <div class="doc"><span class="di"><svg class="ic"><use href="#i-split"/></svg></span><div><span class="tr">Sesiniz kesik kesik geliyor.</span><span class="ru">Вас прерывает.</span></div><button class="say" data-say="Sesiniz kesik kesik geliyor." aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div>
+          <div class="doc"><span class="di"><svg class="ic"><use href="#i-clock"/></svg></span><div><span class="tr">Biraz daha yavaş konuşabilir misiniz?</span><span class="ru">Можете говорить чуть медленнее?</span></div><button class="say" data-say="Biraz daha yavaş konuşabilir misiniz?" aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div>
+          <div class="doc"><span class="di"><svg class="ic"><use href="#i-repeat"/></svg></span><div><span class="tr">Tekrar eder misiniz?</span><span class="ru">Не повторите?</span></div><button class="say" data-say="Tekrar eder misiniz?" aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div>
+          <div class="doc"><span class="di"><svg class="ic"><use href="#i-phone-off"/></svg></span><div><span class="tr">Hat düştü, tekrar arıyorum.</span><span class="ru">Связь оборвалась, перезваниваю.</span></div><button class="say" data-say="Hat düştü, tekrar arıyorum." aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="chead mt2" id="mailx" style="margin-top:56px"><span class="ct"><span class="ico"><svg class="ic"><use href="#i-mail"/></svg></span>Письмо</span> <span class="n">03</span></div>
+    <p class="ctext">Отклик на вакансию. Шесть частей, порядок всегда один. Переключи тон: формально для крупной компании, нейтрально для небольшой.</p>
+    <div class="grid g2">
+      <div class="card rv" id="mailc">
+        <div class="seg" id="mSeg" style="margin-bottom:14px"><button class="on" data-m="f">Формально</button><button data-m="n">Нейтрально</button></div>
+        <div class="mail"><div class="mbar"><i></i><i></i><i></i></div><div id="mParts"></div></div>
+      </div>
+      <div class="card dark rv">
+        <div class="chead"><span class="ct"><span class="ico"><svg class="ic"><use href="#i-send"/></svg></span>Фразы для переписки</span> <span class="n">5</span></div>
+        <div class="doc" style="border-color:#333"><span class="di"><svg class="ic"><use href="#i-handshake"/></svg></span><div><span class="tr">Dönüşünüz için teşekkür ederim.</span><span class="ru">Спасибо за ответ.</span></div><button class="say" data-say="Dönüşünüz için teşekkür ederim." aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div>
+        <div class="doc" style="border-color:#333"><span class="di"><svg class="ic"><use href="#i-send"/></svg></span><div><span class="tr">En kısa sürede dönüş yapacağım.</span><span class="ru">Отвечу как можно скорее.</span></div><button class="say" data-say="En kısa sürede dönüş yapacağım." aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div>
+        <div class="doc" style="border-color:#333"><span class="di"><svg class="ic"><use href="#i-paperclip"/></svg></span><div><span class="tr">Ekte bulabilirsiniz.</span><span class="ru">Найдёте во вложении.</span></div><button class="say" data-say="Ekte bulabilirsiniz." aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div>
+        <div class="doc" style="border-color:#333"><span class="di"><svg class="ic"><use href="#i-eye"/></svg></span><div><span class="tr">Bilginize.</span><span class="ru">К сведению. Пишут, когда пересылают письмо.</span></div><button class="say" data-say="Bilginize." aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div>
+        <div class="doc" style="border-color:#333"><span class="di"><svg class="ic"><use href="#i-calendar-days"/></svg></span><div><span class="tr">Uygun bir zamanda görüşebilir miyiz?</span><span class="ru">Можем созвониться в удобное время?</span></div><button class="say" data-say="Uygun bir zamanda görüşebilir miyiz?" aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= §5 ОШИБКИ ================= -->
+<section class="sec" id="s5">
+  <div class="wrap">
+    <span class="kick l"><svg class="ic"><use href="#i-triangle-alert"/></svg>05 · Где ошибаются</span>
+    <h2 class="big">Шесть граблей русскоязычных</h2>
+    <p class="lead">Мозг переводит с русского слово в слово. Турецкий так не работает. Вот где спотыкаются чаще всего.</p>
+    <div class="errs mt2" id="errs">
+      <div class="er open">
+        <button aria-expanded="true"><span class="ct"><span class="ico"><svg class="ic"><use href="#i-crown"/></svg></span>Титул перед именем</span><span class="n">01</span></button>
+        <div class="bd"><div><div class="in">
+          <div class="xo no"><span class="m"><svg class="ic"><use href="#i-x"/></svg></span><span class="t">Merhaba Hanım Ayşe,</span></div>
+          <div class="xo ok"><span class="m"><svg class="ic"><use href="#i-check"/></svg></span><span class="t">Merhaba Ayşe Hanım,</span><button class="say" data-say="Merhaba Ayşe Hanım" aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div>
+          <p class="why">По-русски "госпожа Айше". По-турецки наоборот: имя, потом Hanım. Для мужчин Bey: Ahmet Bey. Обычно с именем, а не с фамилией.</p>
+        </div></div></div>
+      </div>
+      <div class="er">
+        <button aria-expanded="false"><span class="ct"><span class="ico"><svg class="ic"><use href="#i-users"/></svg></span>"Ты" с HR</span><span class="n">02</span></button>
+        <div class="bd"><div><div class="in">
+          <div class="xo no"><span class="m"><svg class="ic"><use href="#i-x"/></svg></span><span class="t">Müsait misin?</span></div>
+          <div class="xo ok"><span class="m"><svg class="ic"><use href="#i-check"/></svg></span><span class="t">Müsait misiniz?</span><button class="say" data-say="Müsait misiniz?" aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div>
+          <p class="why">Бытовой турецкий учат на "ты", поэтому -sin вылетает на автомате. На работе с незнакомыми всегда -siniz, пока тебе не скажут перейти на ты.</p>
+        </div></div></div>
+      </div>
+      <div class="er">
+        <button aria-expanded="false"><span class="ct"><span class="ico"><svg class="ic"><use href="#i-target"/></svg></span>Откликнуться "что"</span><span class="n">03</span></button>
+        <div class="bd"><div><div class="in">
+          <div class="xo no"><span class="m"><svg class="ic"><use href="#i-x"/></svg></span><span class="t">Bu pozisyonu başvurdum.</span></div>
+          <div class="xo ok"><span class="m"><svg class="ic"><use href="#i-check"/></svg></span><span class="t">Bu pozisyona başvurdum.</span><button class="say" data-say="Bu pozisyona başvurdum." aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div>
+          <p class="why">Откликнуться НА позицию. başvurmak любит направление: -a / -e. Винительный -u тут лишний.</p>
+        </div></div></div>
+      </div>
+      <div class="er">
+        <button aria-expanded="false"><span class="ct"><span class="ico"><svg class="ic"><use href="#i-messages-square"/></svg></span>Рассказать "себя"</span><span class="n">04</span></button>
+        <div class="bd"><div><div class="in">
+          <div class="xo no"><span class="m"><svg class="ic"><use href="#i-x"/></svg></span><span class="t">Kendimi bahsedeyim.</span></div>
+          <div class="xo ok"><span class="m"><svg class="ic"><use href="#i-check"/></svg></span><span class="t">Kendimden bahsedeyim.</span><button class="say" data-say="Kendimden bahsedeyim." aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div>
+          <p class="why">Рассказать О себе по-турецки это рассказать ОТ себя. bahsetmek требует -den / -dan. Отсюда и вопрос: Kendinizden bahseder misiniz?</p>
+        </div></div></div>
+      </div>
+      <div class="er">
+        <button aria-expanded="false"><span class="ct"><span class="ico"><svg class="ic"><use href="#i-list-ordered"/></svg></span>Глагол посередине</span><span class="n">05</span></button>
+        <div class="bd"><div><div class="in">
+          <div class="xo no"><span class="m"><svg class="ic"><use href="#i-x"/></svg></span><span class="t">Gönderiyorum sözleşmeyi ekte.</span></div>
+          <div class="xo ok"><span class="m"><svg class="ic"><use href="#i-check"/></svg></span><span class="t">Sözleşmeyi ekte gönderiyorum.</span><button class="say" data-say="Sözleşmeyi ekte gönderiyorum." aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div>
+          <p class="why">В разговоре турки иногда так переставляют. В письме это режет глаз. Глагол в конец, и предложение сразу звучит по-турецки.</p>
+        </div></div></div>
+      </div>
+      <div class="er">
+        <button aria-expanded="false"><span class="ct"><span class="ico"><svg class="ic"><use href="#i-link-2"/></svg></span>Документ без хвоста</span><span class="n">06</span></button>
+        <div class="bd"><div><div class="in">
+          <div class="xo no"><span class="m"><svg class="ic"><use href="#i-x"/></svg></span><span class="t">çalışma izin</span></div>
+          <div class="xo ok"><span class="m"><svg class="ic"><use href="#i-check"/></svg></span><span class="t">çalışma izni</span><button class="say" data-say="çalışma izni" aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div>
+          <p class="why">По-русски "рабочая виза" это прилагательное + существительное. По-турецки два существительных, и второе обязано получить хвост. Без него звучит как "работа разрешение".</p>
+        </div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= §6 ИСКЛЮЧЕНИЯ ================= -->
+<section class="sec" id="s6">
+  <div class="wrap">
+    <span class="kick"><svg class="ic"><use href="#i-split"/></svg>06 · Исключения</span>
+    <h2 class="big">Слова, которые ломают правило</h2>
+    <p class="lead">Документы любят сюрпризы. Поломок пять типов. Нажми на карточку, чтобы проиграть ещё раз.</p>
+    <div class="xcs mt2" id="xcs">
+      <div class="xc dark rv">
+        <span class="tg"><svg class="ic"><use href="#i-arrow-down"/></svg>Гласная выпадает</span>
+        <div class="mo"><span>iz<span class="x drop">i</span>n</span><span class="ar">→</span><span class="b">izn<span class="c d1">i</span></span></div>
+        <p class="why">Хвост начинается с гласной, и вторая i из izin просто уходит.</p>
+        <div class="ctx"><div class="tx"><span class="tr">çalışma izni</span><span class="ru">разрешение на работу</span></div><button class="say" data-say="çalışma izni" aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div>
+      </div>
+      <div class="xc rv">
+        <span class="tg"><svg class="ic"><use href="#i-arrow-down"/></svg>Гласная выпадает</span>
+        <div class="mo"><span>fik<span class="x drop">i</span>r</span><span class="ar">→</span><span class="b">fikr<span class="c d1">i</span></span></div>
+        <p class="why">Та же история: fikir, ağız, isim, burun. Короткая гласная во втором слоге выпадает.</p>
+        <div class="ctx"><div class="tx"><span class="tr">iyi bir iş fikri</span><span class="ru">хорошая бизнес-идея</span></div><button class="say" data-say="iyi bir iş fikri" aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div>
+      </div>
+      <div class="xc rv">
+        <span class="tg"><svg class="ic"><use href="#i-copy"/></svg>Согласная удваивается</span>
+        <div class="mo"><span>hak</span><span class="ar">→</span><span class="b">hak<span class="c d1">k</span><span class="c d2">ı</span></span></div>
+        <p class="why">Слова из арабского: hak, zam, his, ret. Перед гласной согласная двоится.</p>
+        <div class="ctx"><div class="tx"><span class="tr">yıllık izin hakkı</span><span class="ru">право на ежегодный отпуск</span></div><button class="say" data-say="yıllık izin hakkı" aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div>
+      </div>
+      <div class="xc dark rv">
+        <div class="xph"><img src="media/t_money.webp" alt="Деньги" loading="lazy" width="416" height="178"></div>
+        <span class="tg"><svg class="ic"><use href="#i-copy"/></svg>Согласная удваивается</span>
+        <div class="mo"><span>zam</span><span class="ar">→</span><span class="b">zam<span class="c d1">m</span><span class="c d2">ı</span></span></div>
+        <p class="why">Самое приятное слово в этом гайде. Учи сразу с удвоением.</p>
+        <div class="ctx"><div class="tx"><span class="tr">maaş zammı</span><span class="ru">повышение зарплаты</span></div><button class="say" data-say="maaş zammı" aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div>
+      </div>
+      <div class="xc rv">
+        <span class="tg"><svg class="ic"><use href="#i-arrow-up-down"/></svg>p → b</span>
+        <div class="mo"><span>tale<span class="x drop">p</span></span><span class="ar">→</span><span class="b">tale<span class="c d1">b</span><span class="c d2">i</span></span></div>
+        <p class="why">Глухая на конце звенит перед гласной: p → b, ç → c, t → d, k → ğ.</p>
+        <div class="ctx"><div class="tx"><span class="tr">izin talebi</span><span class="ru">заявка на отпуск</span></div><button class="say" data-say="izin talebi" aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div>
+      </div>
+      <div class="xc rv">
+        <span class="tg"><svg class="ic"><use href="#i-arrow-up-down"/></svg>k → ğ</span>
+        <div class="mo"><span>esne<span class="x drop">k</span></span><span class="ar">→</span><span class="b">esne<span class="c d1">ğ</span><span class="c d2">i</span><span class="c d3">m</span></span></div>
+        <p class="why">Пригодится на вопросе про зарплату. ğ не читается, только тянет e.</p>
+        <div class="ctx"><div class="tx"><span class="tr">Bu konuda esneğim.</span><span class="ru">В этом вопросе я гибкий.</span></div><button class="say" data-say="Bu konuda esneğim." aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div>
+      </div>
+      <div class="xc dark rv">
+        <div class="xph"><img src="media/t_time.webp" alt="Часы" loading="lazy" width="416" height="178"></div>
+        <span class="tg"><svg class="ic"><use href="#i-scale"/></svg>Гармония сломана</span>
+        <div class="mo"><span>sa<span class="x" style="color:var(--amber)">a</span>t</span><span class="ar">→</span><span class="b">saat<span class="c d1">i</span></span></div>
+        <p class="why">По правилу после a должно быть ı. Но saat из арабского, и хвост берёт i.</p>
+        <div class="ctx"><div class="tx"><span class="tr">mesai saati</span><span class="ru">рабочее время</span></div><button class="say" data-say="mesai saati" aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div>
+      </div>
+      <div class="xc rv">
+        <span class="tg"><svg class="ic"><use href="#i-scale"/></svg>Гармония сломана</span>
+        <div class="mo"><span>kontr<span class="x" style="color:#C79A00">o</span>l</span><span class="ar">→</span><span class="b">kontrol<span class="c d1">ü</span></span></div>
+        <p class="why">Заимствования на -l: kontrol, rol, gol, alkol. Мягкое l тянет переднюю гласную.</p>
+        <div class="ctx"><div class="tx"><span class="tr">kalite kontrolü</span><span class="ru">контроль качества</span></div><button class="say" data-say="kalite kontrolü" aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div>
+      </div>
+      <div class="xc rv">
+        <span class="tg"><svg class="ic"><use href="#i-shield"/></svg>Ничего не меняется</span>
+        <div class="mo"><span>ek</span><span class="ar">→</span><span class="b">ek<span class="c d1">i</span></span></div>
+        <p class="why">Односложные слова почти всегда держатся: ek, iş, top, saç. Никаких k → ğ.</p>
+        <div class="ctx"><div class="tx"><span class="tr">Eki açabilir misiniz?</span><span class="ru">Можете открыть вложение?</span></div><button class="say" data-say="Eki açabilir misiniz?" aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= §7 ИТОГ ================= -->
+<section class="sec" id="s7">
+  <div class="wrap">
+    <span class="kick g"><svg class="ic"><use href="#i-clipboard-list"/></svg>07 · Итог</span>
+    <h2 class="big">Шпаргалка на один экран</h2>
+    <div class="sum mt2">
+      <div class="sm rv"><span class="bi"><svg class="ic"><use href="#i-users"/></svg></span><div class="chead">Вы <span class="n">01</span></div><div class="f">слово + mı / mi / mu / mü + sınız. Гласную выбирает последняя гласная слова.</div><div class="ex"><span>Müsait misiniz?</span><button class="say" data-say="Müsait misiniz?" aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div></div>
+      <div class="sm rv"><span class="bi"><svg class="ic"><use href="#i-message-circle"/></svg></span><div class="chead">Просьба <span class="n">02</span></div><div class="f">глагол + (y)abil / ebil + ir misiniz. Хвост не меняется.</div><div class="ex"><span>Bakabilir misiniz?</span><button class="say" data-say="Bakabilir misiniz?" aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div></div>
+      <div class="sm rv"><span class="bi"><svg class="ic"><use href="#i-sparkles"/></svg></span><div class="chead">Хотел бы <span class="n">03</span></div><div class="f">глагол на -mak / -mek + isterim. Вежливее, чем istiyorum.</div><div class="ex"><span>Bilgi almak isterim.</span><button class="say" data-say="Bilgi almak isterim." aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div></div>
+      <div class="sm rv"><span class="bi"><svg class="ic"><use href="#i-list-ordered"/></svg></span><div class="chead">Порядок <span class="n">04</span></div><div class="f">Глагол в конце. "Я" можно выкинуть, окончание и так говорит, кто.</div><div class="ex"><span>Sözleşmeyi ekte gönderiyorum.</span><button class="say" data-say="Sözleşmeyi ekte gönderiyorum." aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div></div>
+      <div class="sm rv"><span class="bi"><svg class="ic"><use href="#i-file-text"/></svg></span><div class="chead">Документ <span class="n">05</span></div><div class="f">слово + слово-(s)ı. Следи за поломками: izni, hakkı, talebi, saati.</div><div class="ex"><span>çalışma izni</span><button class="say" data-say="çalışma izni" aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div></div>
+      <div class="sm rv"><span class="bi"><svg class="ic"><use href="#i-crown"/></svg></span><div class="chead">Имя <span class="n">06</span></div><div class="f">Сначала имя, потом Hanım или Bey. В письме: Sayın + имя и фамилия.</div><div class="ex"><span>Ayşe Hanım</span><button class="say" data-say="Ayşe Hanım" aria-label="Озвучить"><svg class="ic"><use href="#i-volume-2"/></svg></button></div></div>
+    </div>
+    <p class="aph rv">Бытовой турецкий помогает <b>выжить</b>. Рабочий помогает <b>остаться</b></p>
+  </div>
+</section>
+
+<!-- ================= §8 ПРАКТИКА ================= -->
+<section class="sec" id="s8">
+  <div class="wrap">
+    <span class="kick d"><svg class="ic"><use href="#i-trophy"/></svg>08 · Практика</span>
+    <h2 class="big">Тринадцать заданий</h2>
+    <p class="lead">Разные типы: выбрать, вписать, собрать, соединить. Проверка сразу, с разбором.</p>
+    <div class="score mt2">
+      <div class="card dark" style="padding:22px 24px">
+        <div class="chead" style="margin-bottom:10px">Твой результат <span class="n" id="scPct">0%</span></div>
+        <div class="gbar"><i class="gf" id="scBar" style="width:2%"></i><i class="gh"></i><i class="ge"></i></div>
+      </div>
+      <div class="sqs">
+        <div class="sq"><svg class="ic"><use href="#i-circle-check"/></svg><b id="scOk">0</b><span>верно</span></div>
+        <div class="sq"><svg class="ic"><use href="#i-user-round"/></svg><b id="scDone">0 / 13</b><span>сделано</span></div>
+      </div>
+    </div>
+    <div class="exs" id="exs"></div>
+    <div class="card amber result" id="result" hidden>
+      <div class="chead">Готово <span class="n" id="resN"></span></div>
+      <p class="big" id="resT" style="font-size:clamp(32px,8vw,60px)"></p>
+      <p class="ctext" id="resS"></p>
+      <button class="btn-s" id="resRe"><svg class="ic"><use href="#i-rotate-ccw"/></svg>Пройти заново</button>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="sec" id="platform">
+  <div class="wrap">
+    <span class="kick"><svg class="ic"><use href="#i-sparkles"/></svg>Alterna Timur · A0 до C1</span>
+    <div class="stag" style="margin-top:28px" aria-label="Одна тема за 15 минут. На платформе так разобраны все.">
+      <span class="l1">Одна тема.</span><span class="l2">15 минут.</span><span class="l3">На платформе</span><span class="l4">так все.</span>
+    </div>
+    <p class="stag-sub">Вот так у меня разобран рабочий турецкий. На платформе так разобрана вся грамматика и лексика, от первого слова до C1.</p>
+
+    <div class="pains mt2">
+      <div class="card pain rv">
+        <div class="chead"><span class="ct"><span class="ico"><svg class="ic"><use href="#i-smile"/></svg></span>Знакомо</span> <span class="n">01</span></div>
+        <p>Живёшь в Турции. В магазине всё понятно.</p>
+        <p>Приходит письмо от HR. Копируешь в переводчик. Отвечаешь через переводчик. Звонят. Переводчик не берёт трубку.</p>
+        <p class="k">Бытовые слова есть. Рабочих нет.</p>
+      </div>
+      <div class="card dark pain rv">
+        <div class="chead"><span class="ct"><span class="ico"><svg class="ic"><use href="#i-smile"/></svg></span>Знакомо</span> <span class="n">02</span></div>
+        <p>Правило понимаешь. Читаешь гайд и киваешь.</p>
+        <p>Начинается звонок. И -abil, -ir, -misiniz разбегаются кто куда. Говоришь Gönder. Хотел сказать вежливо.</p>
+        <p class="k">Понимать и говорить это разные мышцы.</p>
+      </div>
+    </div>
+
+    <p class="punch rv">Поэтому я собрал платформу. Отдельно гайды по работе. Отдельно грамматика, чтобы аффиксы собирались сами, без паузы на звонке.</p>
+
+    <div class="facts mt2">
+      <div class="fact dark rv"><div class="top3"><svg class="ic"><use href="#i-book-open"/></svg><span>A1 - C1</span></div><b class="count" data-to="128">128</b><div class="t">гайдов по грамматике</div><div class="s">58 для A1 - A2 и 70 для B1 - C1. Разобраны как на канале.</div></div>
+      <div class="fact amber rv"><div class="top3"><svg class="ic"><use href="#i-layers"/></svg><span>по темам</span></div><b class="count" data-to="131">131</b><div class="t">блок лексики</div><div class="s">Не список слов, а то, что реально говорят.</div></div>
+      <div class="fact rv"><div class="top3"><svg class="ic"><use href="#i-sparkles"/></svg><span>A0 - C1</span></div><b class="count" data-to="109">109</b><div class="t">интерактивных ресурсов</div><div class="s">Слова, тексты, диалоги, аудирование, игры на запоминание. 63 для A0 - A2 и 46 для B1 - C1.</div></div>
+      <div class="fact lime rv"><div class="top3"><svg class="ic"><use href="#i-briefcase"/></svg><span>работа</span></div><b class="count" data-to="36">36</b><div class="t">гайдов по работе</div><div class="s">Для тех, кто ищет работу или уже работает.</div></div>
+      <div class="fact rv"><div class="top3"><svg class="ic"><use href="#i-graduation-cap"/></svg><span>экзамены</span></div><b class="count" data-to="32">32</b><div class="t">блока по экзаменам</div><div class="s">A1, A2, B1, B2, C1. По каждому отдельно.</div></div>
+      <div class="fact dark rv"><div class="top3"><svg class="ic"><use href="#i-clapperboard"/></svg><span>по уровням</span></div><b class="count" data-to="1716">1716</b><div class="t">материалов</div><div class="s">Фильмы, книги, мультфильмы, подкасты, приложения, YouTube.</div></div>
+    </div>
+
+    <div class="card dark mt lvls rv" id="lvls">
+      <div class="chead">Что внутри по уровням <span class="n">A0 → C1</span></div>
+      <div class="lv"><div class="h"><b>Гайды по грамматике</b><span>128</span></div><div class="dbar"><span class="a" style="width:45.3%">A1 - A2 · 58</span><span class="b" style="width:54.7%">B1 - C1 · 70</span></div></div>
+      <div class="lv"><div class="h"><b>Интерактивные ресурсы</b><span>109</span></div><div class="dbar"><span class="a" style="width:57.8%">A0 - A2 · 63</span><span class="b" style="width:42.2%">B1 - C1 · 46</span></div></div>
+    </div>
+
+    <div class="show2 mt2">
+      <div class="rv">
+        <div class="bframe"><div class="dots"><i></i><i></i><i></i></div><video muted loop playsinline preload="none" data-src="media/v_builder.mp4" data-poster="media/v_builder.jpg"></video></div>
+        <p class="cap">Грамматика как на канале<small>Вписал слово, схема собрала форму и объяснила почему</small></p>
+      </div>
+      <div class="rv">
+        <div class="pshot"><img src="media/ph_1962.webp" alt="Маршрут уровней на телефоне" loading="lazy" width="560" height="1212"></div>
+        <p class="cap" style="text-align:center">Маршрут от A0 до C1<small>Видно, где ты сейчас и что учить дальше</small></p>
+      </div>
+    </div>
+    <div class="grid g3 mt2">
+      <div class="rv"><div class="bframe"><div class="dots"><i></i><i></i><i></i></div><video muted loop playsinline preload="none" data-src="media/v_quiz.mp4" data-poster="media/v_quiz.jpg"></video></div><p class="cap">Интерактив<small>Проверка сразу, прогресс по темам</small></p></div>
+      <div class="rv"><div class="bframe"><div class="dots"><i></i><i></i><i></i></div><img src="media/sc_rabota.webp" alt="Раздел Работа на платформе" loading="lazy" width="635" height="384" style="aspect-ratio:635/384;object-fit:contain;background:#fff"></div><p class="cap">Раздел "Работа"<small>36 гайдов: поиск работы и сама работа</small></p></div>
+      <div class="rv"><div class="bframe"><div class="dots"><i></i><i></i><i></i></div><video muted loop playsinline preload="none" data-src="media/v_podcasts.mp4" data-poster="media/v_podcasts.jpg"></video></div><p class="cap">1716 материалов<small>Подкасты, мультфильмы, фильмы по уровням</small></p></div>
+    </div>
+
+
+    <div class="chead mt2" style="margin-top:64px"><span class="ct"><span class="ico"><svg class="ic"><use href="#i-smartphone"/></svg></span>Как это выглядит внутри</span> <span class="n">с телефона</span></div>
+    <div class="phs">
+      <figure><div class="pf"><img src="media/ph_1950.webp" alt="Маршрут обучения" loading="lazy" width="560" height="1212"></div><figcaption>Маршрут<small>от первых слов до речи</small></figcaption></figure>
+      <figure><div class="pf"><img src="media/ph_1962.webp" alt="Уровень A1: фундамент" loading="lazy" width="560" height="1212"></div><figcaption>Уровни<small>что учить на каждом</small></figcaption></figure>
+      <figure><div class="pf"><img src="media/ph_1925.webp" alt="Каталог видео" loading="lazy" width="560" height="1212"></div><figcaption>Видео<small>каталог по уровням</small></figcaption></figure>
+      <figure><div class="pf"><img src="media/ph_1951.webp" alt="Подкасты" loading="lazy" width="560" height="1212"></div><figcaption>Подкасты<small>турецкий в наушниках</small></figcaption></figure>
+      <figure><div class="pf"><img src="media/ph_1946.webp" alt="Книги" loading="lazy" width="560" height="1212"></div><figcaption>Книги<small>с той страницы, где понятно</small></figcaption></figure>
+    </div>
+    <div class="grid g2 mt2">
+      <figure class="shot rv" style="margin:0"><div class="bshot"><div class="dots"><i></i><i></i><i></i></div><img src="media/sc_calls.webp" alt="Лексика: звонки и больница" loading="lazy" width="1100" height="658"></div><figcaption><b>131</b>блок лексики: даже звонок в страховую</figcaption></figure>
+      <figure class="shot rv" style="margin:0"><div class="bshot"><div class="dots"><i></i><i></i><i></i></div><img src="media/sc_grammar.webp" alt="Список гайдов по грамматике B1 - C1" loading="lazy" width="1100" height="558"></div><figcaption><b>128</b>гайдов по грамматике, A1 - C1</figcaption></figure>
+    </div>
+    <div class="chead mt2" style="margin-top:64px"><span class="ct"><span class="ico"><svg class="ic"><use href="#i-message-circle"/></svg></span>Что пишут</span> <span class="n">отзывы</span></div>
+    <div class="rvs">
+      <figure class="rvi"><div class="im"><img src="media/rv_elina.webp" alt="Отзыв Элины в Telegram" loading="lazy" width="591" height="1280"></div><figcaption><b>Элина</b>"Сразу появилась уверенность и вести диалоги стало легче."</figcaption></figure>
+      <figure class="rvi"><div class="im"><img src="media/rv_natalya.webp" alt="Отзыв Натальи в Telegram" loading="lazy" width="591" height="1280"></div><figcaption><b>Наталья</b>"Задействованы все составляющие: и лексика, и грамматика."</figcaption></figure>
+      <figure class="rvi"><div class="im"><img src="media/rv_darya.webp" alt="Отзыв Дарьи в Telegram" loading="lazy" width="591" height="1280"></div><figcaption><b>Дарья</b>"Подача через личные истории, это смешно и помогает запомнить."</figcaption></figure>
+      <figure class="rvi w"><div class="im"><img src="media/rv_alisa.webp" alt="Отзыв Алисы" loading="lazy" width="810" height="524"></div><figcaption><b>Алиса</b>"Всё проходит весело, непринуждённо, с огромным удовольствием!"</figcaption></figure>
+    </div>
+
+    <div class="card amber mt2 rv" id="buy" style="margin-top:56px">
+      <div class="chead">Alterna Timur <span class="n">A0 до C1</span></div>
+      <div class="price">
+        <div><div class="pv">$30</div><p style="font-size:20px;margin:10px 0 0">Один раз. Доступ навсегда.</p></div>
+        <ul>
+          <li><svg class="ic"><use href="#i-check"/></svg>128 гайдов по грамматике</li>
+          <li><svg class="ic"><use href="#i-check"/></svg>131 блок лексики по темам</li>
+          <li><svg class="ic"><use href="#i-check"/></svg>109 интерактивных ресурсов</li>
+          <li><svg class="ic"><use href="#i-check"/></svg>36 гайдов по работе</li>
+          <li><svg class="ic"><use href="#i-check"/></svg>32 блока по экзаменам A1 - C1</li>
+          <li><svg class="ic"><use href="#i-check"/></svg>1716 материалов по уровням</li>
+        </ul>
+      </div>
+      <div class="cta">
+        <a class="btn k" href="https://app.lava.top/products/2cdbb9f8-e65b-443e-8d2c-4fea4c121e41" target="_blank" rel="noopener"><svg class="ic"><use href="#i-shopping-cart"/></svg>Купить доступ за $30</a>
+        <a class="btn w" href="https://wa.me/message/RCHLEOGGLZ5OC1" target="_blank" rel="noopener"><svg class="ic"><use href="#i-message-circle"/></svg>Задать вопрос в WhatsApp</a>
+      </div>
+    </div>
+    <p class="aph rv">Рабочий турецкий ты уже начал. <b>Остальное ждёт на платформе</b></p>
+  </div>
+</section>
+<div class="fbuy" id="fbuy"><a class="btn" href="#buy"><svg class="ic"><use href="#i-shopping-cart"/></svg>Alterna · $30</a></div>
+
+</main>
+
+<footer><div class="wrap"><span>alterna · рабочий турецкий</span><a href="#hero">Наверх ↑</a></div></footer>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+function xInit(){
+  var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var hasG = !!(window.gsap && window.ScrollTrigger);
+  if(hasG){ try{ gsap.registerPlugin(ScrollTrigger); if(window.SplitText) gsap.registerPlugin(SplitText); }catch(e){} }
+  var G = hasG && !reduce ? gsap : null;
+  if(G){ document.documentElement.classList.add('gs'); ScrollTrigger.config({ignoreMobileResize:true}); }
+  function $(s,r){ return (r||document).querySelector(s); }
+  function $$(s,r){ return Array.prototype.slice.call((r||document).querySelectorAll(s)); }
+  function whenVisible(el, on, off, th){
+    if(!el) return;
+    if(!('IntersectionObserver' in window)){ on(); return; }
+    new IntersectionObserver(function(es){ es.forEach(function(en){ en.isIntersecting ? on() : (off && off()); }); }, {threshold:th||.25}).observe(el);
+  }
+  function once(el, fn, th){
+    if(!el) return; var done = false;
+    if(!('IntersectionObserver' in window)){ fn(); return; }
+    var io = new IntersectionObserver(function(es){ es.forEach(function(en){
+      if(done) return;
+      if(en.isIntersecting || en.boundingClientRect.bottom < 0){ done = true; io.disconnect(); fn(); }
+    }); }, {threshold:th||.25});
+    io.observe(el);
+    pend.push({el:el, run:function(){ if(done) return; done = true; io.disconnect(); fn(); }});
+  }
+  var pend = [];
+  function sweep(){ pend = pend.filter(function(p){ if(p.el.getBoundingClientRect().bottom < innerHeight * .9){ p.run(); return false; } return true; }); }
+  addEventListener('scroll', function(){ clearTimeout(sweep.t); sweep.t = setTimeout(sweep, 120); }, {passive:true});
+  addEventListener('load', function(){ setTimeout(sweep, 300); });
+  var SPK = '<svg class="ic"><use href="#i-volume-2"/></svg>';
+  function sayBtn(t, cls){ return '<button class="say'+(cls?' '+cls:'')+'" data-say="'+t.replace(/"/g,'&quot;')+'" aria-label="Озвучить">'+SPK+'</button>'; }
+  function cap(s){ return s.charAt(0).toLocaleUpperCase('tr-TR') + s.slice(1); }
+
+  /* ---------- toast ---------- */
+  var toastT;
+  function toast(msg){ var t = $('#toast'); t.textContent = msg; t.classList.add('show'); clearTimeout(toastT); toastT = setTimeout(function(){ t.classList.remove('show'); }, 3600); }
+
+  /* ---------- speech (tr-TR) ---------- */
+  var tts = 'speechSynthesis' in window;
+  if(!tts) document.documentElement.classList.add('no-tts');
+  var trVoice = null, voicesLoaded = false, warned = false;
+  function pickVoice(){
+    try{
+      var v = speechSynthesis.getVoices(); if(v.length) voicesLoaded = true;
+      trVoice = v.filter(function(x){ return /^tr(-|_|$)/i.test(x.lang); })[0] || null;
+    }catch(e){}
+  }
+  if(tts){ pickVoice(); try{ speechSynthesis.addEventListener ? speechSynthesis.addEventListener('voiceschanged', pickVoice) : (speechSynthesis.onvoiceschanged = pickVoice); }catch(e){} }
+  function say(text, btn){
+    if(!tts || !text) return;
+    try{
+      speechSynthesis.cancel();
+      var u = new SpeechSynthesisUtterance(text);
+      u.lang = 'tr-TR'; u.rate = .9; if(trVoice) u.voice = trVoice;
+      if(btn){ $$('.say.on').forEach(function(b){ b.classList.remove('on'); }); btn.classList.add('on'); u.onend = u.onerror = function(){ btn.classList.remove('on'); }; }
+      speechSynthesis.speak(u);
+      if(voicesLoaded && !trVoice && !warned){ warned = true; toast('В этом браузере нет турецкого голоса. Озвучка может звучать с акцентом. Лучше всего работает Safari и Chrome на телефоне.'); }
+    }catch(e){}
+  }
+  document.addEventListener('click', function(e){
+    var b = e.target.closest('[data-say]');
+    if(!b) return;
+    if(b.closest('.fc')) e.stopPropagation();
+    say(b.dataset.say, b.classList.contains('say') ? b : null);
+    if(b.classList.contains('lx')){ $$('.lx.on').forEach(function(x){ x.classList.remove('on'); }); b.classList.add('on'); }
+  }, true);
+
+  /* ---------- progress + tabs ---------- */
+  var pf = $('#pf'), ticking = false;
+  function prog(){
+    var h = document.documentElement, max = h.scrollHeight - innerHeight;
+    pf.style.width = (max > 0 ? Math.min(100, scrollY / max * 100) : 0) + '%';
+    ticking = false;
+  }
+  addEventListener('scroll', function(){ if(!ticking){ ticking = true; requestAnimationFrame(prog); } }, {passive:true});
+  prog();
+  var tabs = $('#tabs'), tabLinks = $$('#tabs a');
+  function setTab(id){
+    tabLinks.forEach(function(a){
+      var on = a.dataset.t === id; a.classList.toggle('on', on);
+      if(on){ var l = a.offsetLeft - tabs.clientWidth/2 + a.clientWidth/2; tabs.scrollTo({left:l, behavior:'smooth'}); }
+    });
+  }
+  if('IntersectionObserver' in window){
+    var so = new IntersectionObserver(function(es){ es.forEach(function(en){ if(en.isIntersecting) setTab(en.target.id); }); }, {rootMargin:'-45% 0px -50% 0px'});
+    tabLinks.forEach(function(a){ var s = document.getElementById(a.dataset.t); if(s) so.observe(s); });
+  }
+
+  /* ---------- reveals + headings ---------- */
+  if(G){
+    ScrollTrigger.batch('.rv', {start:'top 90%', once:true, onEnter:function(b){ G.fromTo(b, {y:46, rotation:1.2}, {y:0, rotation:0, duration:.9, ease:'power3.out', stagger:.09, overwrite:true}); }});
+    if(window.SplitText) (document.fonts && document.fonts.ready ? document.fonts.ready : Promise.resolve()).then(function(){
+      $$('.big').forEach(function(h){
+        if(h.closest('#result')) return;
+        var st = new SplitText(h, {type:'words', wordsClass:'wd'});
+        G.from(st.words, {yPercent:60, rotation:5, duration:.9, ease:'back.out(2)', stagger:.06, scrollTrigger:{trigger:h, start:'top 88%', once:true}});
+      });
+      ScrollTrigger.refresh();
+    });
+    $$('.stag').forEach(function(s){
+      G.from($$('span', s), {xPercent:function(i){ return i % 2 ? 18 : -18; }, duration:1.1, ease:'power3.out', stagger:.08, scrollTrigger:{trigger:s, start:'top 85%', once:true}});
+    });
+    $$('.sec .kick').forEach(function(k){ G.from(k, {scale:.6, rotation:-8, duration:.7, ease:'back.out(3)', scrollTrigger:{trigger:k, start:'top 92%', once:true}}); });
+  }
+
+  /* ---------- §1 register toggle ---------- */
+  (function(){
+    var box = $('#reg'); if(!box) return;
+    var rows = $$('.rg-row', box), btns = $$('.seg button', box), auto = null, user = false, mode = 0;
+    function set(m, anim){
+      mode = m;
+      btns.forEach(function(b, i){ b.classList.toggle('on', i === m); });
+      rows.forEach(function(r, i){
+        var tr = $('.rg-tr', r), ru = $('.rg-ru', r), sb = $('.say', r);
+        var d = m ? r.dataset.b : r.dataset.a, dr = m ? r.dataset.bru : r.dataset.aru;
+        function swap(){ tr.textContent = d; ru.textContent = dr; sb.dataset.say = d; }
+        if(G && anim){
+          G.timeline().to([tr, ru], {yPercent:-70, opacity:0, duration:.18, delay:i*.05, ease:'power2.in', onComplete:swap})
+            .fromTo([tr, ru], {yPercent:70, opacity:0}, {yPercent:0, opacity:1, duration:.4, ease:'back.out(2)'});
+        } else swap();
+      });
+    }
+    btns.forEach(function(b, i){ b.addEventListener('click', function(){ user = true; clearInterval(auto); auto = null; set(i, true); }); });
+    if(!reduce) whenVisible(box, function(){ if(user || auto) return; auto = setInterval(function(){ set(mode ? 0 : 1, true); }, 2800); setTimeout(function(){ if(!user) set(1, true); }, 900); }, function(){ clearInterval(auto); auto = null; }, .4);
+  })();
+
+  /* ---------- §2 politeness meter ---------- */
+  (function(){
+    var L = [
+      {tr:'Gönder.', ru:'Отправь.', n:'Приказ. Так говорят с братом, и то не всегда.', p:10},
+      {tr:'Gönderir misin?', ru:'Отправишь?', n:'На ты. С коллегой-ровесником нормально.', p:35},
+      {tr:'Gönderir misiniz?', ru:'Отправите?', n:'На вы. Уже можно писать начальнику.', p:60},
+      {tr:'Gönderebilir misiniz?', ru:'Не могли бы вы отправить?', n:'Золотая середина. Подходит почти всем.', p:82},
+      {tr:'Rica etsem, gönderebilir misiniz?', ru:'Если не трудно, не могли бы вы отправить?', n:'Максимум. Для директора и госучреждений.', p:100}
+    ];
+    var list = $('#mList'), cur = -1, auto = null, user = false;
+    list.innerHTML = L.map(function(l, i){ return '<button class="srow" data-i="'+i+'"><span>'+(i+1)+'. '+l.tr+'</span><span>'+l.p+'%</span></button>'; }).join('');
+    var rows = $$('.srow', list);
+    function set(i){
+      if(i === cur) return; cur = i; var l = L[i];
+      rows.forEach(function(r, k){ r.classList.toggle('hi', k === i); });
+      $('#mBar').style.width = Math.max(4, l.p * .87) + '%';
+      var pct = $('#mPct');
+      if(G){ var o = {v:parseInt(pct.textContent, 10) || 0}; G.to(o, {v:l.p, duration:.6, ease:'power2.out', onUpdate:function(){ pct.textContent = Math.round(o.v) + '%'; }}); } else pct.textContent = l.p + '%';
+      $('#mTr').textContent = l.tr; $('#mRu').textContent = l.ru; $('#mNote').textContent = l.n; $('#mSay').dataset.say = l.tr;
+      if(G) G.fromTo('#meter .mout', {scale:.95, rotation:-1.5}, {scale:1, rotation:0, duration:.6, ease:'back.out(3)'});
+    }
+    rows.forEach(function(r){ r.addEventListener('click', function(){ user = true; clearInterval(auto); set(+r.dataset.i); }); });
+    set(0);
+    if(reduce){ set(3); return; }
+    whenVisible($('#meter'), function(){ if(user || auto) return; var k = cur; auto = setInterval(function(){ k = (k + 1) % L.length; set(k); }, 1700); }, function(){ clearInterval(auto); auto = null; }, .5);
+  })();
+
+  /* ---------- §3.1 harmony ---------- */
+  (function(){
+    var W = [
+      {w:'Hazır', ru:'Вы готовы?'}, {w:'Müsait', ru:'Вам удобно говорить?'}, {w:'Memnun', ru:'Вы довольны?'},
+      {w:'Türk', ru:'Вы турок?'}, {w:'Emin', ru:'Вы уверены?'}, {w:'Yorgun', ru:'Вы устали?'}
+    ];
+    var P = {'ı':'mısınız', 'i':'misiniz', 'u':'musunuz', 'ü':'müsünüz'};
+    function key(w){
+      var s = w.toLocaleLowerCase('tr-TR');
+      for(var i = s.length - 1; i >= 0; i--){
+        var c = s[i];
+        if('aı'.indexOf(c) > -1) return {i:i, k:'ı'};
+        if('ei'.indexOf(c) > -1) return {i:i, k:'i'};
+        if('ou'.indexOf(c) > -1) return {i:i, k:'u'};
+        if('öü'.indexOf(c) > -1) return {i:i, k:'ü'};
+      }
+    }
+    var word = $('#hmWord'), vars = $$('.hv', $('#hmVars')), chips = $('#hmChips'), cur = 0, auto = null, user = false, tms = [];
+    chips.innerHTML = W.map(function(x, i){ return '<button class="chip" data-i="'+i+'">'+x.w+'</button>'; }).join('');
+    var cs = $$('.chip', chips);
+    function show(i){
+      cur = i; tms.forEach(clearTimeout); tms = [];
+      var x = W[i], k = key(x.w);
+      cs.forEach(function(c, j){ c.classList.toggle('on', j === i); });
+      vars.forEach(function(v){ v.classList.remove('pick'); });
+      word.innerHTML = x.w.split('').map(function(ch, j){ return '<i'+(j === k.i ? ' data-v' : '')+'>'+ch+'</i>'; }).join('');
+      if(G) G.fromTo($$('i', word), {yPercent:50, rotation:8}, {yPercent:0, rotation:0, duration:.5, ease:'back.out(2.5)', stagger:.03});
+      var full = x.w + ' ' + P[k.k] + '?';
+      tms.push(setTimeout(function(){ var v = $('i[data-v]', word); if(v) v.classList.add('lv'); }, reduce ? 0 : 450));
+      tms.push(setTimeout(function(){
+        vars.forEach(function(v){ v.classList.toggle('pick', v.dataset.k === k.k); });
+        $('#hmOut').textContent = full; $('#hmRu').textContent = x.ru; $('#hmSay').dataset.say = full;
+        if(G) G.fromTo('#hmOut', {yPercent:40, rotation:2}, {yPercent:0, rotation:0, duration:.5, ease:'back.out(2.5)'});
+      }, reduce ? 0 : 1000));
+    }
+    cs.forEach(function(c){ c.addEventListener('click', function(){ user = true; clearInterval(auto); auto = null; show(+c.dataset.i); }); });
+    show(0);
+    if(!reduce) whenVisible($('#harm'), function(){ if(user || auto) return; auto = setInterval(function(){ show((cur + 1) % W.length); }, 3000); }, function(){ clearInterval(auto); auto = null; }, .4);
+  })();
+
+  /* ---------- §3.2 builder ---------- */
+  (function(){
+    var V = [
+      {v:'gönder', ru:'отправить'}, {v:'ara', ru:'позвонить'}, {v:'bak', ru:'посмотреть'},
+      {v:'tekrarla', ru:'повторить'}, {v:'imzala', ru:'подписать'}, {v:'bekle', ru:'подождать'}
+    ];
+    var row = $('#bRow'), chips = $('#bChips'), per = 'siz', cur = 0;
+    chips.innerHTML = V.map(function(x, i){ return '<button class="chip'+(i?'':' on')+'" data-i="'+i+'">'+x.v+'</button>'; }).join('');
+    var cs = $$('.chip', chips);
+    function lastV(s){ s = s.toLocaleLowerCase('tr-TR'); for(var i = s.length - 1; i >= 0; i--){ if('aeıioöuü'.indexOf(s[i]) > -1) return s[i]; } }
+    function build(anim){
+      var x = V[cur], lv = lastV(x.v), back = 'aıou'.indexOf(lv) > -1, endsV = 'aeıioöuü'.indexOf(x.v.slice(-1)) > -1;
+      var B = [{t:x.v, c:'k-root', l:'глагол'}];
+      if(endsV) B.push({t:'y', c:'k-buf', l:'буфер'});
+      B.push({t:back ? 'abil' : 'ebil', c:'k-abil', l:'может'});
+      B.push({t:'ir', c:'k-ir', l:'время'});
+      B.push({gap:1});
+      B.push({t:'mi', c:'k-q', l:'вопрос'});
+      if(per === 'siz') B.push({t:'siniz', c:'k-per', l:'вы'}); else { B.push({t:'y', c:'k-buf', l:'буфер'}); B.push({t:'im', c:'k-per', l:'я'}); }
+      row.innerHTML = B.map(function(b){ return b.gap ? '<span class="blk gap"></span>' : '<span class="blk '+b.c+'"><b>'+b.t+'</b><small>'+b.l+'</small></span>'; }).join('');
+      var full = cap(x.v) + (endsV ? 'y' : '') + (back ? 'abil' : 'ebil') + 'ir ' + (per === 'siz' ? 'misiniz' : 'miyim') + '?';
+      $('#bOut').textContent = full; $('#bSay').dataset.say = full;
+      $('#bRu').textContent = (per === 'siz' ? 'Не могли бы вы ' : 'Можно мне ') + x.ru + '?';
+      if(G && anim) G.fromTo($$('.blk:not(.gap)', row), {y:44, rotation:-8, scale:.55}, {y:0, rotation:0, scale:1, duration:.6, ease:'back.out(2.6)', stagger:.11});
+    }
+    cs.forEach(function(c){ c.addEventListener('click', function(){ cs.forEach(function(z){ z.classList.toggle('on', z === c); }); cur = +c.dataset.i; build(true); }); });
+    $$('#bPer button').forEach(function(b){ b.addEventListener('click', function(){ $$('#bPer button').forEach(function(z){ z.classList.toggle('on', z === b); }); per = b.dataset.p; build(true); }); });
+    build(false);
+    once($('#bld'), function(){ build(true); }, .45);
+  })();
+
+  /* ---------- §3.4 SOV ---------- */
+  (function(){
+    var row = $('#sovRow'), capEl = $('#sovCap');
+    var D = [{ru:'Я', tr:'Ben', r:'s'}, {ru:'отправляю', tr:'gönderiyorum', r:'v'}, {ru:'договор', tr:'sözleşmeyi', r:'o'}, {ru:'в приложении', tr:'ekte', r:'l'}];
+    var chips = [], tms = [];
+    function reset(){
+      tms.forEach(clearTimeout); tms = [];
+      row.innerHTML = ''; chips = D.map(function(d){ var s = document.createElement('span'); s.className = 'sv'; s.dataset.r = d.r; s.textContent = d.ru; row.appendChild(s); return s; });
+      capEl.textContent = 'По-русски: Я отправляю договор в приложении.';
+    }
+    function flipTo(order){
+      var first = chips.map(function(c){ return c.getBoundingClientRect(); });
+      order.forEach(function(i){ row.appendChild(chips[i]); });
+      chips.forEach(function(c, k){
+        var l = c.getBoundingClientRect(), dx = first[k].left - l.left, dy = first[k].top - l.top;
+        if(G) G.fromTo(c, {x:dx, y:dy}, {x:0, y:0, duration:.9, ease:'power3.inOut'});
+      });
+    }
+    function play(){
+      reset();
+      var st = reduce ? 0 : 1;
+      tms.push(setTimeout(function(){
+        capEl.textContent = 'Шаг 1. Переводим слово в слово.';
+        chips.forEach(function(c, i){
+          if(G) G.timeline({delay:i*.08}).to(c, {rotationX:90, duration:.18, onComplete:function(){ c.textContent = D[i].tr; }}).to(c, {rotationX:0, duration:.3, ease:'back.out(2)'});
+          else c.textContent = D[i].tr;
+        });
+      }, 1500*st));
+      tms.push(setTimeout(function(){ capEl.textContent = 'Шаг 2. Глагол уезжает в конец. Всегда.'; flipTo([0, 2, 3, 1]); }, 3300*st));
+      tms.push(setTimeout(function(){ capEl.textContent = 'Шаг 3. Ben можно выкинуть: окончание ‑um и так говорит, кто отправляет.'; chips[0].classList.add('gone'); }, 5000*st));
+    }
+    reset();
+    once($('#sov'), play, .5);
+    $('#sovRe').addEventListener('click', play);
+  })();
+
+  /* ---------- §3.5 izafet + docs ---------- */
+  (function(){
+    var ids = ['#iz1', '#iz2', '#iz3'];
+    once($('#izf'), function(){ ids.forEach(function(id, i){ setTimeout(function(){ $(id).classList.add('go'); }, reduce ? 0 : i * 900); }); }, .15);
+    $('#izf').addEventListener('click', function(){
+      ids.forEach(function(id){ $(id).classList.remove('go'); });
+      setTimeout(function(){ ids.forEach(function(id, i){ setTimeout(function(){ $(id).classList.add('go'); }, i * 700); }); }, 350);
+    });
+    if(G) ScrollTrigger.batch('#docs .doc', {start:'top 92%', once:true, onEnter:function(b){ G.fromTo(b, {x:-30}, {x:0, duration:.6, ease:'power3.out', stagger:.06}); }});
+  })();
+
+  /* ---------- §4 interview flip cards ---------- */
+  (function(){
+    var Q = [
+      {q:'Kendinizden bahseder misiniz?', m:'Расскажете о себе?', a:'Adım Aliya. İki yıldır Antalya\'da yaşıyorum. Satış alanında üç yıllık deneyimim var.', ar:'Меня зовут Алия. Два года живу в Анталье. У меня три года опыта в продажах.'},
+      {q:'Neden bu pozisyona başvurdunuz?', m:'Почему вы откликнулись на эту позицию?', a:'Bu alanda kendimi geliştirmek istiyorum ve şirketinizin projelerini beğeniyorum.', ar:'Хочу развиваться в этой сфере, и мне нравятся проекты вашей компании.'},
+      {q:'Güçlü ve zayıf yönleriniz nelerdir?', m:'Ваши сильные и слабые стороны?', a:'Hızlı öğrenirim. Bazen fazla detaycıyım, ama bunun üzerinde çalışıyorum.', ar:'Быстро учусь. Иногда слишком дотошный, но работаю над этим.'},
+      {q:'Maaş beklentiniz nedir?', m:'Какие у вас ожидания по зарплате?', a:'Piyasaya uygun bir maaş bekliyorum. Bu konuda esneğim.', ar:'Ожидаю зарплату по рынку. В этом вопросе я гибкий.'},
+      {q:'Ne zaman başlayabilirsiniz?', m:'Когда можете приступить?', a:'Önümüzdeki aydan itibaren başlayabilirim.', ar:'Могу начать со следующего месяца.'},
+      {q:'Çalışma izniniz var mı?', m:'У вас есть разрешение на работу?', a:'Henüz yok. Bildiğim kadarıyla başvuruyu işveren yapıyor.', ar:'Пока нет. Насколько я знаю, заявку подаёт работодатель.'},
+      {q:'Bize sormak istediğiniz bir şey var mı?', m:'Есть вопросы к нам?', a:'Evet. Deneme süresi ne kadar?', ar:'Да. Какой испытательный срок?'}
+    ];
+    var box = $('#fcs');
+    box.innerHTML = Q.map(function(x, i){
+      var n = (i < 9 ? '0' : '') + (i + 1);
+      return '<div class="fc" role="button" tabindex="0" aria-label="Перевернуть карточку"><div class="fc-in">'
+        + '<div class="fc-f"><div class="top2"><span>HR спрашивает</span><span>'+n+'</span></div><div class="q">'+x.q+'</div>'
+        + '<div class="hint"><svg class="ic"><use href="#i-rotate-ccw"/></svg>нажми, чтобы перевернуть</div><div>'+sayBtn(x.q)+'</div></div>'
+        + '<div class="fc-b"><div class="top2"><span>Это значит</span><span>'+n+'</span></div><div class="mean">'+x.m+'</div>'
+        + '<div class="row"><div style="flex:1"><div class="ans">'+x.a+'</div><div class="ansru">'+x.ar+'</div></div>'+sayBtn(x.a)+'</div></div>'
+        + '</div></div>';
+    }).join('');
+    $$('.fc', box).forEach(function(c){
+      function t(e){ if(e.target.closest('.say')) return; c.classList.toggle('flipped'); }
+      c.addEventListener('click', t);
+      c.addEventListener('keydown', function(e){ if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); c.classList.toggle('flipped'); } });
+    });
+    if(G) ScrollTrigger.batch('#fcs .fc', {start:'top 90%', once:true, onEnter:function(b){ G.fromTo(b, {y:50, rotation:2}, {y:0, rotation:0, duration:.8, ease:'back.out(1.6)', stagger:.08}); }});
+  })();
+
+  /* ---------- §4 phone call ---------- */
+  (function(){
+    var C = [
+      {me:0, tr:'Alo, buyurun. ABC Lojistik, ben Elif.', ru:'Алло, слушаю. ABC Lojistik, это Элиф.'},
+      {me:1, tr:'Merhaba, ben Aliya. Ahmet Bey\'le görüşebilir miyim?', ru:'Здравствуйте, это Алия. Могу я поговорить с Ахмет-беем?'},
+      {me:0, tr:'Kim arıyor diyeyim?', ru:'Как вас представить?'},
+      {me:1, tr:'İş ilanınızla ilgili arıyorum. Dün özgeçmişimi gönderdim.', ru:'Звоню по вашей вакансии. Вчера отправила резюме.'},
+      {me:0, tr:'Bir dakika, hatta kalın lütfen.', ru:'Минуту, оставайтесь на линии, пожалуйста.'},
+      {me:0, tr:'Ahmet Bey şu an toplantıda. Not bırakmak ister misiniz?', ru:'Ахмет-бей сейчас на совещании. Хотите оставить сообщение?'},
+      {me:1, tr:'Müsait olduğunda beni arayabilir mi?', ru:'Может он перезвонить мне, когда освободится?'},
+      {me:0, tr:'Tabii, iletirim. Numaranızı alabilir miyim?', ru:'Конечно, передам. Можно ваш номер?'},
+      {me:1, tr:'Tabii. Teşekkür ederim, iyi çalışmalar.', ru:'Конечно. Спасибо, хорошей работы.'}
+    ];
+    var th = $('#thread'), i = 0, timer = null, playing = false;
+    function add(k){
+      var c = C[k], d = document.createElement('div');
+      d.className = 'bub' + (c.me ? ' me' : '');
+      d.innerHTML = '<div class="tx"><span class="tr">'+c.tr+'</span><span class="ru">'+c.ru+'</span></div>' + sayBtn(c.tr);
+      th.appendChild(d);
+      if(G) G.fromTo(d, {y:24, scale:.85, rotation:c.me ? 3 : -3}, {y:0, scale:1, rotation:0, duration:.5, ease:'back.out(2.4)'});
+      th.scrollTop = th.scrollHeight;
+    }
+    function step(){
+      if(i >= C.length){ playing = false; return; }
+      var ty = document.createElement('div'); ty.className = 'bub typing' + (C[i].me ? ' me' : ''); ty.innerHTML = '<i></i><i></i><i></i>';
+      th.appendChild(ty); th.scrollTop = th.scrollHeight;
+      timer = setTimeout(function(){ ty.remove(); add(i); i++; if(playing) timer = setTimeout(step, 1300); }, reduce ? 0 : 650);
+    }
+    function restart(){ clearTimeout(timer); th.innerHTML = ''; i = 0; playing = true; step(); }
+    $('#callNext').addEventListener('click', function(){ clearTimeout(timer); $$('.typing', th).forEach(function(t){ t.remove(); }); playing = false; if(i < C.length){ add(i); i++; } });
+    $('#callRe').addEventListener('click', restart);
+    if(reduce){ C.forEach(function(_, k){ add(k); }); i = C.length; return; }
+    once($('.phone'), function(){ playing = true; step(); }, .4);
+  })();
+
+  /* ---------- §4 email ---------- */
+  (function(){
+    var P = [
+      {lab:'Konu · тема', f:['Satış Temsilcisi pozisyonu için başvuru', 'Отклик на позицию менеджера по продажам'], n:['Satış Temsilcisi pozisyonu için başvuru', 'Отклик на позицию менеджера по продажам']},
+      {lab:'Hitap · обращение', f:['Sayın Ayşe Yılmaz,', 'Уважаемая Айше Йылмаз,'], n:['Merhaba Ayşe Hanım,', 'Здравствуйте, Айше-ханым,']},
+      {lab:'Giriş · вступление', f:['Şirketinizin Satış Temsilcisi ilanını LinkedIn üzerinden gördüm.', 'Я увидела вакансию вашей компании в LinkedIn.'], n:['LinkedIn\'deki ilanınızı gördüm.', 'Увидела вашу вакансию в LinkedIn.']},
+      {lab:'Ana kısım · суть', f:['Özgeçmişimi ekte bilgilerinize sunarım.', 'Направляю вам резюме во вложении.'], n:['Özgeçmişimi ekte gönderiyorum.', 'Отправляю резюме во вложении.']},
+      {lab:'Kapanış · финал', f:['Görüşme fırsatı için şimdiden teşekkür ederim. Saygılarımla,', 'Заранее благодарю за возможность собеседования. С уважением,'], n:['Görüşmek isterim. İyi çalışmalar,', 'Буду рада пообщаться. Хорошей работы,']},
+      {lab:'İmza · подпись', f:['Aliya Nurlanova', 'Алия Нурланова'], n:['Aliya Nurlanova', 'Алия Нурланова']}
+    ];
+    var box = $('#mParts'), mode = 'f';
+    box.innerHTML = P.map(function(p, i){ return '<div class="mp"><span class="n">0'+(i+1)+'</span><span class="lab">'+p.lab+'</span><div class="tx"><span class="tr"></span><span class="ru"></span></div><button class="say" data-say="" aria-label="Озвучить">'+SPK+'</button></div>'; }).join('');
+    var rows = $$('.mp', box);
+    function set(m, anim){
+      mode = m;
+      rows.forEach(function(r, i){
+        var d = P[i][m], tr = $('.tr', r), ru = $('.ru', r), changed = P[i].f[0] !== P[i].n[0];
+        function sw(){ tr.textContent = d[0]; ru.textContent = d[1]; $('.say', r).dataset.say = d[0]; }
+        if(G && anim && changed){
+          r.classList.add('hi');
+          G.timeline({delay:i*.07}).to([tr, ru], {x:-14, opacity:0, duration:.16, onComplete:sw}).fromTo([tr, ru], {x:14, opacity:0}, {x:0, opacity:1, duration:.35, ease:'power3.out', onComplete:function(){ setTimeout(function(){ r.classList.remove('hi'); }, 500); }});
+        } else sw();
+      });
+    }
+    $$('#mSeg button').forEach(function(b){ b.addEventListener('click', function(){ $$('#mSeg button').forEach(function(z){ z.classList.toggle('on', z === b); }); set(b.dataset.m, true); }); });
+    set('f', false);
+    if(G) once($('#mailc'), function(){ G.fromTo(rows, {x:-24}, {x:0, duration:.6, ease:'power3.out', stagger:.1}); rows.forEach(function(r, i){ setTimeout(function(){ r.classList.add('hi'); setTimeout(function(){ r.classList.remove('hi'); }, 650); }, i * 280); }); }, .35);
+  })();
+
+  /* ---------- §5 errors accordion ---------- */
+  (function(){
+    var ers = $$('#errs .er');
+    ers.forEach(function(er){
+      $('button', er).addEventListener('click', function(e){
+        if(e.target.closest('.say')) return;
+        var open = !er.classList.contains('open');
+        ers.forEach(function(x){ x.classList.remove('open'); $('button', x).setAttribute('aria-expanded', 'false'); });
+        if(open){ er.classList.add('open'); $('button', er).setAttribute('aria-expanded', 'true'); }
+      });
+    });
+    if(G) ScrollTrigger.batch('#errs .er', {start:'top 92%', once:true, onEnter:function(b){ G.fromTo(b, {y:30, scale:.97}, {y:0, scale:1, duration:.6, ease:'back.out(1.8)', stagger:.07}); }});
+  })();
+
+  /* ---------- §6 exceptions ---------- */
+  (function(){
+    var cards = $$('#xcs .xc');
+    if(reduce){ cards.forEach(function(c){ c.classList.add('go'); }); return; }
+    cards.forEach(function(c, i){
+      once(c, function(){ setTimeout(function(){ c.classList.add('go'); }, 250 + (i % 3) * 160); }, .2);
+      c.addEventListener('click', function(e){ if(e.target.closest('.say')) return; c.classList.remove('go'); setTimeout(function(){ c.classList.add('go'); }, 380); });
+    });
+  })();
+
+  /* ---------- §8 exercises ---------- */
+  (function(){
+    var EX = [
+      {t:'mc', tp:'выбор', q:'Нужно попросить HR повторить вопрос. Самый вежливый вариант?', o:['Tekrarla.', 'Tekrarlar mısın?', 'Tekrarlayabilir misiniz?'], a:2, e:'tekrarla + y + abil + ir misiniz. Вариант 2 на "ты", вариант 1 это приказ.', s:'Tekrarlayabilir misiniz?'},
+      {t:'mc', tp:'гармония', q:'<b>Emin ___?</b> Вы уверены?', o:['mısınız', 'misiniz', 'musunuz', 'müsünüz'], a:1, e:'Последняя гласная в emin это i. После e и i идёт misiniz.', s:'Emin misiniz?'},
+      {t:'mc', tp:'гармония', q:'<b>Memnun ___?</b> Вы довольны?', o:['mısınız', 'misiniz', 'musunuz', 'müsünüz'], a:2, e:'Последняя гласная u. После o и u идёт musunuz.', s:'Memnun musunuz?'},
+      {t:'order', tp:'собери', q:'Собери "Не могли бы вы позвонить?"', ch:['siniz', 'abil', 'ara', 'mi', 'yabil', 'ir'], a:['ara', 'yabil', 'ir', 'mi', 'siniz'], aff:1, e:'ara кончается на гласную, поэтому нужен буфер: ara-yabil. Блок abil без y тут лишний.', s:'Arayabilir misiniz?'},
+      {t:'type', tp:'впиши', q:'çalışma + izin = ?', ph:'разрешение на работу', acc:['çalışma izni'], e:'izin теряет вторую i и получает хвост: izn + i = izni.', s:'çalışma izni'},
+      {t:'type', tp:'впиши', q:'maaş + zam = maaş ___', ph:'повышение зарплаты', acc:['zammı', 'maaş zammı'], e:'zam из арабского: m удваивается перед гласной. zam + mı = zammı.', s:'maaş zammı'},
+      {t:'mc', tp:'письмо', q:'Как начать письмо Айше Йылмаз?', o:['Merhaba Hanım Ayşe,', 'Merhaba Ayşe Hanım,', 'Merhaba Ayşe Bey,'], a:1, e:'Титул после имени. Hanım для женщин, Bey для мужчин.', s:'Merhaba Ayşe Hanım'},
+      {t:'order', tp:'порядок', q:'Собери "Отправляю договор во вложении."', ch:['gönderiyorum', 'Sözleşmeyi', 'ekte'], a:['Sözleşmeyi', 'ekte', 'gönderiyorum'], e:'Глагол всегда в конце. Сначала что, потом где, потом действие.', s:'Sözleşmeyi ekte gönderiyorum.'},
+      {t:'mc', tp:'письмо', q:'Формальное письмо. Что пишем в конце перед именем?', o:['Görüşürüz,', 'Saygılarımla,', 'Hoşça kal,'], a:1, e:'Saygılarımla это "с уважением". Görüşürüz и Hoşça kal для друзей.', s:'Saygılarımla'},
+      {t:'mc', tp:'ошибка', q:'HR: Kendinizden bahseder misiniz? Как правильно начать ответ?', o:['Kendimi bahsedeyim.', 'Kendimden bahsedeyim.', 'Kendime bahsedeyim.'], a:1, e:'bahsetmek требует -den: рассказать "от себя". Kendimden bahsedeyim.', s:'Kendimden bahsedeyim.'},
+      {t:'mc', tp:'ошибка', q:'"Я откликнулся на эту позицию."', o:['Bu pozisyonu başvurdum.', 'Bu pozisyona başvurdum.', 'Bu pozisyonda başvurdum.'], a:1, e:'başvurmak работает с направлением: -a / -e. Откликнуться НА позицию.', s:'Bu pozisyona başvurdum.'},
+      {t:'mc', tp:'звонок', q:'Связь плохая. Как сказать "Я вас не слышу"?', o:['Sizi duyamıyorum.', 'Sizi göremiyorum.', 'Sizi anlamıyorum.'], a:0, e:'duymak это слышать. görmek это видеть, anlamak понимать. Не путай: "не понимаю" обидит, если дело в связи.', s:'Sizi duyamıyorum.'},
+      {t:'match', tp:'соедини', q:'Соедини слово и перевод', pairs:[['özgeçmiş', 'резюме'], ['maaş', 'зарплата'], ['sözleşme', 'договор'], ['mülakat', 'собеседование'], ['işveren', 'работодатель']], e:'Пять слов, без которых не пройти ни одно собеседование.'}
+    ];
+    var box = $('#exs'), state = [], TPI = {'выбор':'circle-check','гармония':'scale','собери':'puzzle','впиши':'keyboard','письмо':'mail','порядок':'list-ordered','ошибка':'triangle-alert','звонок':'phone','соедини':'link-2'};
+    function norm(s){ return s.toLocaleLowerCase('tr-TR').replace(/[.,!?;:"']/g, '').replace(/\s+/g, ' ').trim(); }
+    function loose(s){ return norm(s).replace(/ç/g,'c').replace(/ğ/g,'g').replace(/ı/g,'i').replace(/ö/g,'o').replace(/ş/g,'s').replace(/ü/g,'u').replace(/i̇/g,'i'); }
+    function shuffle(a){ a = a.slice(); for(var i = a.length - 1; i > 0; i--){ var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
+    function render(){
+      state = EX.map(function(){ return {done:false, ok:false}; });
+      box.innerHTML = EX.map(function(x, i){
+        var n = (i < 9 ? '0' : '') + (i + 1), body = '';
+        if(x.t === 'mc') body = '<div class="opts">' + x.o.map(function(o, k){ return '<button class="op" data-k="'+k+'">'+o+'</button>'; }).join('') + '</div>';
+        if(x.t === 'type') body = '<div class="tin"><input type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="'+x.ph+'" aria-label="Ответ"><button class="go-btn">Проверить</button></div><div class="kbd">' + ['ç','ğ','ı','ö','ş','ü'].map(function(c){ return '<button data-c="'+c+'">'+c+'</button>'; }).join('') + '</div>';
+        if(x.t === 'order') body = '<div class="oline"></div><div class="oprev"></div><div class="opool">' + x.ch.map(function(c){ return '<button class="ob">'+c+'</button>'; }).join('') + '</div><div class="orow"><button class="go-btn">Проверить</button><button class="btn-s oreset"><svg class="ic"><use href="#i-rotate-ccw"/></svg>Сбросить</button></div>';
+        if(x.t === 'match'){
+          var L = x.pairs.map(function(p, k){ return '<button class="mb" data-l="'+k+'">'+p[0]+'</button>'; }).join('');
+          var R = shuffle(x.pairs.map(function(p, k){ return {k:k, t:p[1]}; })).map(function(p){ return '<button class="mb" data-r="'+p.k+'">'+p.t+'</button>'; }).join('');
+          body = '<div class="mt2c"><div class="col">'+L+'</div><div class="col">'+R+'</div></div>';
+        }
+        return '<div class="ex rv" data-i="'+i+'"><div class="eh"><span>Задание '+n+'</span><span class="tp">'+(TPI[x.tp]?'<svg class="ic"><use href="#i-'+TPI[x.tp]+'"/></svg>':'')+x.tp+'</span></div><div class="qq">'+x.q+'</div>'+body+'<div class="fb"></div></div>';
+      }).join('');
+      $$('.ex', box).forEach(wire);
+      upd();
+      $('#result').hidden = true;
+    }
+    function fb(card, ok, x, extra){
+      var f = $('.fb', card); f.className = 'fb show ' + (ok ? 'ok' : 'no');
+      f.innerHTML = '<b>' + (ok ? 'Верно' : 'Не совсем') + (x.s ? ': ' + x.s + sayBtn(x.s) : '') + '</b>' + (extra ? extra + ' ' : '') + x.e;
+      if(G) G.fromTo(f, {y:-10, scale:.97}, {y:0, scale:1, duration:.45, ease:'back.out(2.5)'});
+      if(!ok && G) G.fromTo(card, {x:-8}, {x:0, duration:.5, ease:'elastic.out(1,.3)'});
+    }
+    function mark(i, ok){ if(state[i].done) return; state[i] = {done:true, ok:ok}; upd(); }
+    function wire(card){
+      var i = +card.dataset.i, x = EX[i];
+      if(x.t === 'mc'){
+        var ops = $$('.op', card);
+        ops.forEach(function(b){ b.addEventListener('click', function(){
+          var k = +b.dataset.k, ok = k === x.a;
+          ops.forEach(function(o){ o.disabled = true; });
+          b.classList.add(ok ? 'ok' : 'no'); ops[x.a].classList.add('ok');
+          fb(card, ok, x); mark(i, ok);
+        }); });
+      }
+      if(x.t === 'type'){
+        var inp = $('input', card);
+        $$('.kbd button', card).forEach(function(b){ b.addEventListener('click', function(){
+          var s = inp.selectionStart != null ? inp.selectionStart : inp.value.length, e2 = inp.selectionEnd != null ? inp.selectionEnd : s;
+          inp.value = inp.value.slice(0, s) + b.dataset.c + inp.value.slice(e2); inp.focus(); inp.setSelectionRange(s + 1, s + 1);
+        }); });
+        function check(){
+          if(!inp.value.trim()) return;
+          var v = norm(inp.value), ok = x.acc.some(function(a){ return norm(a) === v; }), near = !ok && x.acc.some(function(a){ return loose(a) === loose(v); });
+          if(near){ fb(card, true, x, 'Засчитано, но с турецкими буквами точнее.'); mark(i, true); }
+          else { fb(card, ok, x); mark(i, ok); }
+        }
+        $('.go-btn', card).addEventListener('click', check);
+        inp.addEventListener('keydown', function(e){ if(e.key === 'Enter') check(); });
+      }
+      if(x.t === 'order'){
+        var line = $('.oline', card), pool = $('.opool', card), prev = $('.oprev', card);
+        function pv(){
+          var w = $$('.ob', line).map(function(b){ return b.textContent; });
+          if(x.aff){ var s = ''; w.forEach(function(t){ s += (t === 'mi' ? ' ' : '') + t; }); prev.textContent = s ? cap(s) + '?' : ''; }
+          else prev.textContent = w.length ? w.join(' ') + '.' : '';
+        }
+        card.addEventListener('click', function(e){
+          var b = e.target.closest('.ob'); if(!b || card.dataset.locked) return;
+          (b.parentNode === pool ? line : pool).appendChild(b);
+          if(G) G.fromTo(b, {scale:.7, rotation:-6}, {scale:1, rotation:0, duration:.45, ease:'back.out(3)'});
+          pv();
+        });
+        $('.oreset', card).addEventListener('click', function(){ if(card.dataset.locked) return; $$('.ob', line).forEach(function(b){ pool.appendChild(b); }); pv(); });
+        $('.go-btn', card).addEventListener('click', function(){
+          var w = $$('.ob', line).map(function(b){ return b.textContent; });
+          if(!w.length) return;
+          var ok = w.join('|') === x.a.join('|');
+          fb(card, ok, x); mark(i, ok);
+          if(ok) card.dataset.locked = 1;
+        });
+      }
+      if(x.t === 'match'){
+        var sel = null, errs = 0, left = x.pairs.length;
+        card.addEventListener('click', function(e){
+          var b = e.target.closest('.mb'); if(!b || b.classList.contains('done')) return;
+          if(b.dataset.l != null){ $$('.mb[data-l]', card).forEach(function(z){ z.classList.remove('sel'); }); b.classList.add('sel'); sel = b; return; }
+          if(!sel){ if(G) G.fromTo(b, {x:-6}, {x:0, duration:.4, ease:'elastic.out(1,.3)'}); return; }
+          if(sel.dataset.l === b.dataset.r){
+            sel.classList.remove('sel'); sel.classList.add('done'); b.classList.add('done'); say(sel.textContent); sel = null; left--;
+            if(G) G.fromTo(b, {scale:.85}, {scale:1, duration:.4, ease:'back.out(3)'});
+            if(!left){ fb(card, errs === 0, x, errs ? 'Ошибок по пути: ' + errs + '.' : ''); mark(i, errs === 0); }
+          } else {
+            errs++; b.classList.add('bad'); setTimeout(function(){ b.classList.remove('bad'); }, 500);
+            if(G) G.fromTo(b, {x:-8}, {x:0, duration:.5, ease:'elastic.out(1,.3)'});
+          }
+        });
+      }
+    }
+    function upd(){
+      var done = state.filter(function(s){ return s.done; }).length, ok = state.filter(function(s){ return s.ok; }).length, pct = Math.round(ok / EX.length * 100);
+      $('#scOk').textContent = ok; $('#scDone').textContent = done + ' / ' + EX.length; $('#scPct').textContent = pct + '%';
+      $('#scBar').style.width = Math.max(2, pct * .87) + '%';
+      if(done === EX.length){
+        var r = $('#result'); r.hidden = false;
+        $('#resN').textContent = ok + ' / ' + EX.length;
+        $('#resT').textContent = pct >= 85 ? 'Можно на собеседование' : pct >= 60 ? 'Почти готов. Ещё один круг' : 'Повтори формулы и попробуй снова';
+        $('#resS').textContent = pct >= 85 ? 'Формулы сидят. Теперь письмо HR, и пусть думают они.' : 'Вернись к формулам 1 и 2. Это 80% рабочего турецкого.';
+        if(G) G.fromTo(r, {y:40, scale:.94, rotation:-1}, {y:0, scale:1, rotation:0, duration:.8, ease:'back.out(2)'});
+      }
+    }
+    $('#resRe').addEventListener('click', function(){ render(); var s = document.getElementById('s8'); if(s) s.scrollIntoView({behavior:'smooth'}); });
+    render();
+  })();
+
+  /* ---------- AD: counters, bars, videos, floating buy ---------- */
+  (function(){
+    $$('.count').forEach(function(el){
+      var to = +el.dataset.to;
+      once(el, function(){
+        if(!G){ el.textContent = to; return; }
+        var o = {v:0}; G.to(o, {v:to, duration:1.6, ease:'power2.out', onUpdate:function(){ el.textContent = Math.round(o.v); }});
+      }, .6);
+    });
+    var lv = $('#lvls');
+    if(lv && G) once(lv, function(){ G.fromTo($$('.dbar span', lv), {scaleX:.08}, {scaleX:1, duration:1.1, ease:'power3.out', stagger:.15}); }, .4);
+    $$('video[data-src]').forEach(function(v){
+      if('IntersectionObserver' in window){
+        new IntersectionObserver(function(es){ es.forEach(function(en){
+          if(en.isIntersecting){ if(!v.src){ v.poster = v.dataset.poster; v.src = v.dataset.src; } var p = v.play(); if(p && p.catch) p.catch(function(){}); }
+          else if(v.src) v.pause();
+        }); }, {rootMargin:'300px 0px', threshold:.01}).observe(v);
+        new IntersectionObserver(function(es){ es.forEach(function(en){ if(en.isIntersecting && !v.poster) v.poster = v.dataset.poster; }); }, {rootMargin:'900px 0px'}).observe(v);
+      } else { v.poster = v.dataset.poster; v.src = v.dataset.src; }
+    });
+    var fbuy = $('#fbuy'), s7 = document.getElementById('s7'), buy = document.getElementById('buy');
+    if(fbuy && s7){
+      var vis = false;
+      addEventListener('scroll', function(){
+        var y = s7.getBoundingClientRect().top, b = buy.getBoundingClientRect();
+        var show = y < innerHeight * .5 && !(b.top < innerHeight && b.bottom > 0);
+        if(show !== vis){ vis = show; fbuy.classList.toggle('show', show); }
+      }, {passive:true});
+    }
+  })();
+
+  if(G){
+    addEventListener('load', function(){ ScrollTrigger.refresh(); });
+    if(document.fonts && document.fonts.ready) document.fonts.ready.then(function(){ ScrollTrigger.refresh(); });
+  }
+}
+if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', xInit); else xInit();
+</script>
+
+</body>
+</html>
